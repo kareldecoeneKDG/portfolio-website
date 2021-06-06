@@ -1,0 +1,36 @@
+.about {
+    &__titlesection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $rubik;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+            letter-spacing: 1px;
+        }
+
+        &__dash {
+            display: inline-block;
+            width: $dash-width-mobile;
+            height: $dash-height-mobile;
+            margin: $dash-margin-mobile;
+            background-color: $orange;
+            border-radius: $border-radius;
+        }
+    }
+
+    &__p {
+        font-size: $p-font-size-mobile;
+        font-family: $ubuntu;
+        color: $lightgrey;
+        line-height: $line-height-mobile;
+        margin: $big-p-margin-mobile;
+        letter-spacing: 0.75px;
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 10%;
+        padding: 0px 20px 0px 20px;
+        margin-bottom: 50px;
+    }
+}

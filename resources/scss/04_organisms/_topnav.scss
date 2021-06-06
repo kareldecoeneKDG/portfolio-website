@@ -1,0 +1,20 @@
+.top {
+    background-color: $lightgrey;
+
+    &__nav {
+        &__title {
+            &__h3 {
+                color: $black;
+                font-family: $raleway;
+                letter-spacing: $letter-spacing-big;
+                font-size: $h4-font-size-mobile;
+                padding-left: 20px;
+                padding-top: 20px;
+
+                &__dot {
+                    color: $orange;
+                }
+            }
+        }
+    }
+}

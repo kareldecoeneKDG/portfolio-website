@@ -1,0 +1,314 @@
+/* __COLORS__ */
+.top {
+  background-color: #EBEBEB;
+}
+
+.about {
+  background-color: #353535;
+}
+
+.skills {
+  background-color: #FFFFFF;
+}
+
+.projects {
+  background-color: green;
+}
+
+.contact {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: magenta;
+}
+
+/* __FONTS__ */
+/* __FONT-SIZES__ */
+/* MOBILE */
+/* DESKTOP */
+/* __LETTER-SPACING__ */
+/* __LINE-HEIGHT__ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* __SPACERS__ */
+/* MOBILE */
+/* DESKTOP */
+/* __WIDTH / HEIGHT__ */
+/* __MOBILE__ */
+/* __DESKTOP__ */
+.top {
+  background-color: #EBEBEB;
+}
+.top__nav__title__h3 {
+  color: #353535;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.top__nav__title__h3__dot {
+  color: #BF4E30;
+}
+
+.top__header__karel {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #353535;
+  border-radius: 50%;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top__header__karel__img {
+  width: 100%;
+  border-radius: 50%;
+}
+.top__header__titles__h1 {
+  margin: 30px 20px 0 20px;
+  font-size: 25px;
+  color: #353535;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+.top__header__titles__h2 {
+  margin: 0px 20px 30px 20px;
+  font-size: 20px;
+  color: #888888;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.top__header__ctas {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.top__header__ctas__background:first-child {
+  margin-left: 0;
+}
+.top__header__ctas__background {
+  background-color: #BF4E30;
+  display: inline;
+  margin: 30px 0px 30px 10px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 10px;
+}
+.top__header__ctas__background a {
+  font-family: "Rubik", sans-serif;
+  color: #EBEBEB;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.top__header__ctas__background a i {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.top__header__ctas2 {
+  margin-top: 40px;
+}
+.top__header__ctas2__downloadcv {
+  margin-left: 20px;
+  display: inline;
+}
+.top__header__ctas2__downloadcv__button:first-child {
+  margin-left: 0;
+}
+.top__header__ctas2__downloadcv__button {
+  font-size: 16px;
+  background-color: #EBEBEB;
+  color: #353535;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  margin: 30px 0px 30px 10px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: underline;
+  padding-left: 0;
+}
+.top__header__ctas2__socials {
+  display: inline;
+  margin-left: 10px;
+}
+.top__header__ctas2__socials__background:first-child {
+  margin-left: 0;
+}
+.top__header__ctas2__socials__background {
+  display: inline;
+  margin-left: 10px;
+}
+.top__header__ctas2__socials__background__a {
+  color: #353535;
+}
+.top__header__scrolldown {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #353535;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+
+.about__titlesection__h4 {
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  color: #EBEBEB;
+  padding: 50px 0px 10px 20px;
+  letter-spacing: 1px;
+}
+.about__titlesection__dash {
+  display: inline-block;
+  width: 50px;
+  height: 8px;
+  margin: 0px 0px 20px 20px;
+  background-color: #BF4E30;
+  border-radius: 10px;
+}
+.about__p {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  color: #EBEBEB;
+  line-height: 24px;
+  margin: 20px 20px 30px 20px;
+  letter-spacing: 0.75px;
+}
+.about__img {
+  width: 100%;
+  border-radius: 10%;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 50px;
+}
+
+.skills__titlesection__h4 {
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  color: #353535;
+  padding: 50px 0px 10px 20px;
+  letter-spacing: 1px;
+}
+.skills__titlesection__dash {
+  display: inline-block;
+  width: 50px;
+  height: 8px;
+  margin: 0px 0px 20px 20px;
+  background-color: #BF4E30;
+  border-radius: 10px;
+}
+.skills__items {
+  padding-bottom: 50px;
+}
+.skills__items__item {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #EBEBEB;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-bottom: 70px;
+}
+.skills__items__item__h5 {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #353535;
+  padding: 20px 0px 10px 20px;
+}
+.skills__items__item__tags {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 30px;
+}
+.skills__items__item__tags__tag {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 5px 8px 5px 8px;
+  background-color: #BF4E30;
+  font-weight: 700;
+  color: #EBEBEB;
+  border-radius: 5px;
+}
+.skills__items__item__tags2 {
+  margin-bottom: 20px;
+}
+.skills__items__item__p {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  color: #353535;
+  padding: 20px;
+  line-height: 24px;
+  padding-bottom: 0;
+}
+.skills__items__item__p__extra {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  color: #353535;
+  padding: 20px;
+  line-height: 24px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+.skills__items__item__h6 {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  color: #353535;
+  padding: 20px 0px 10px 20px;
+}
+.skills__items__item__background {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #BF4E30;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 18px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.skills__items__item__background__2 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #BF4E30;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 16px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.skills__items__item__background__3 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #BF4E30;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 14px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.skills__items__item__background__4 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #BF4E30;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 12px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
