@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>Karel Decoene</title>
+        <title>KAREL.</title>
 
 
         <!-- Fonts -->
@@ -31,22 +31,33 @@
             <!-- BEGIN HEADER -->
             <div class="top">
                 <nav class="top__nav">
+
+
+                    <!-- LOGO -->
                     <div class="top__nav__title">
                         <h3 class="top__nav__title__h3">
                             KAREL<span class="top__nav__title__h3__dot">.</span>
                         </h3>
                     </div>
 
-                    <!--
-                    <div class="top__nav__links">
+
+                    <!-- LINKS -->
+                    <div class="top__nav__links nav-links">
                         <ul class="top__nav__links__list">
-                            <li class="top__nav__links__list__item">about</li>
-                            <li class="top__nav__links__list__item">skills</li>
-                            <li class="top__nav__links__list__item">projects</li>
-                            <li class="top__nav__links__list__item">contact</li>
+                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">about</li></a>
+                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">skills</li></a>
+                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">projects</li></a>
+                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">contact</li></a>
                         </ul>
                     </div>
-                    -->
+
+
+                    <!-- BURGER -->
+                    <div class="top__nav__burger burger">
+                        <div class="top__nav__burger__dash top__nav__burger__line1 line1"></div>
+                        <div class="top__nav__burger__dash top__nav__burger__line2 line2"></div>
+                        <div class="top__nav__burger__dash top__nav__burger__line3 line3"></div>
+                    </div>
                 </nav>
 
 
@@ -220,7 +231,9 @@
                 <div class="projects__items">
                     <!-- PROJECT -->
                     <div class="projects__items__item">
-                        <img src="{{url('../../public/img/img_placeholder.png')}}" alt="img placeholder" class="projects__items__item__img">
+                        <div class="projects__items__item__image">
+                            <img src="{{url('img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                        </div>
 
                         <h5 class="projects__items__item__h5">content & social media</h5>
 
@@ -228,57 +241,61 @@
                             Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
                         </p>
 
-                        <a href="#" class="projects__items__item__button">[icon] instagram</a>
+                        <a href="#" class="projects__items__item__button__extra">
+                            <i class="fa fa-instagram" aria-hidden="true"></i> instagram
+                        </a>
                     </div>
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items">
-                        <div class="projects__items__item">
-                            <img src="{{url('../../public/img/img_placeholder.png')}}" alt="img placeholder" class="projects__items__item__img">
-
-                            <h5 class="projects__items__item__h5">website & content</h5>
-
-                            <p class="projects__items__item__p">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
-                            </p>
-
-                            <a href="#" class="projects__items__item__button">[icon] instagram</a>
+                    <div class="projects__items__item">
+                        <div class="projects__items__item__image">
+                            <img src="{{url('img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
+
+                        <h5 class="projects__items__item__h5">website & content</h5>
+
+                        <p class="projects__items__item__p">
+                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                        </p>
+
+                        <a href="#" class="projects__items__item__button__extra">
+                            <i class="fa fa-instagram" aria-hidden="true"></i> instagram
+                        </a>
                     </div>
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items">
-                        <div class="projects__items__item">
-                            <img src="{{url('../../public/img/img_placeholder.png')}}" alt="img placeholder" class="projects__items__item__img">
-
-                            <h5 class="projects__items__item__h5">web design & development</h5>
-
-                            <p class="projects__items__item__p">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
-                            </p>
-
-                            <a href="#" class="projects__items__item__button">[icon] website</a>
-                            <a href="#" class="projects__items__item__button">[icon] github</a>
+                    <div class="projects__items__item">
+                        <div class="projects__items__item__image">
+                            <img src="{{url('img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
+
+                        <h5 class="projects__items__item__h5">web design & development</h5>
+
+                        <p class="projects__items__item__p">
+                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                        </p>
+
+                        <a href="#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        <a href="#" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                     </div>
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items">
-                        <div class="projects__items__item">
-                            <img src="{{url('../../public/img/img_placeholder.png')}}" alt="img placeholder" class="projects__items__item__img">
-
-                            <h5 class="projects__items__item__h5">web design & development</h5>
-
-                            <p class="projects__items__item__p">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
-                            </p>
-
-                            <a href="#" class="projects__items__item__button">[icon] website</a>
-                            <a href="#" class="projects__items__item__button">[icon] github</a>
+                    <div class="projects__items__item">
+                        <div class="projects__items__item__image">
+                            <img src="{{url('img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
+
+                        <h5 class="projects__items__item__h5">web design & development</h5>
+
+                        <p class="projects__items__item__p">
+                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                        </p>
+
+                        <a href="#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        <a href="#" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                     </div>
                 </div>
             </div>
@@ -293,16 +310,18 @@
                 </div>
 
                 <div class="contact__formsection">
-                    <img src="{{url('../../public/img/img_placeholder.png')}}" alt="img placeholder" class="contact__formsection__img">
-
                     <!-- FORM -->
                     <form class="contact__formsection__form">
                         <input type="text" name="name" placeholder="name" class="contact__formsection__form__input">
                         <input type="text" name="email" placeholder="email" class="contact__formsection__form__input">
                         <textarea name="message" placeholder="message" class="contact__formsection__form__textarea"></textarea>
 
-                        <input type="submit" value="send">
-                    </form> 
+                        <input type="submit" value="send" class="contact__formsection__form__submit">
+                    </form>
+
+                    <div class="top__header__karel">
+                        <img src="{{ url('img/karel2.png') }}" alt="img placeholder" class="top__header__karel__img">
+                    </div>
                 </div>
             </div>
             <!-- END CONTACT -->
@@ -311,12 +330,16 @@
             <!-- BEGIN FOOTER -->
             <footer class="footer">
                 <div class="footer__brand">
-                    <h3 class="footer__brand__h3">KAREL<span class="footer__brand__h3__dot">.</span></h3>
+                    <h3 class="footer__brand__h3">KAREL.</h3>
+
+                    <div class="footer__brand__upsection">
+                        <div class="footer__brand__upsection__background"><a href="#" class="footer__brand__upsection__background__icon"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+                    </div>
 
                     <div class="footer__brand__socials">
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__instagram">instagram [icon]</a></div>
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__facebook">facebook [icon]</a></div>
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__linkedin">linkedin [icon]</a></div>
+                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
 
@@ -343,13 +366,10 @@
                     </div>
 
                 </div>
-
-
-                <div class="footer__upsection">
-                    <div class="footer__upsection__background"><a href="#" class="footer__upsection__background__icon">[icon]</a></div>
-                </div>
             </footer>
             <!-- END FOOTER -->
         </div>
+
+        <script src="{{ url('js/burger.js') }}"></script>
     </body>
 </html>

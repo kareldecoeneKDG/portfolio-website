@@ -1,0 +1,95 @@
+.footer {
+    padding-bottom: 50px;
+
+    &__brand {
+        &__h3 {
+            display: inline-block;
+            font-family: $raleway;
+            color: $lightgrey;
+            padding: $h3-margin-mobile;
+            letter-spacing: $letter-spacing-big;
+            padding-bottom: 25px;
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        &__upsection {
+            display: inline;
+            float: right;
+
+            &__background {
+                background-color: $lightgrey;
+                padding: 12px;
+                border-radius: 50%;
+                margin-top: 50px;
+                margin-right: $margin-side;
+
+                &__icon {
+                    color: $orange;
+                    font-size: $button-font-size-mobile;
+                }
+            }
+        }
+
+        &__socials {
+            display: block;
+            margin-left: $margin-side;
+
+            &__background {
+                display: inline;
+                margin-left: 5px;
+
+                &__a {
+                    font-size: $button-font-size-mobile;
+                    color: $lightgrey;
+
+                    i {
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__linksection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+        }
+
+        &__links {
+            &__link {
+                text-decoration: none;
+                color: $lightgrey;
+                padding: 8px 20px 0px 20px;
+                display: block;
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__contactsection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+        }
+
+        &__links {
+            &__link {
+                text-decoration: underline;
+                color: $lightgrey;
+                padding: 8px 20px 0px 20px;
+                display: block;
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                font-weight: 500;
+            }
+        }
+    }
+}
