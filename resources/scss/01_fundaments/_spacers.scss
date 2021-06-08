@@ -2,6 +2,7 @@
 
     /* MOBILE */
     $margin-side: 20px;
+    $margin-side-big-desktop: 278px;
 
     $h1-margin-mobile: 30px 20px 0 20px;
     $h2-margin-mobile: 0px 20px 30px 20px;
@@ -41,26 +42,26 @@
 
     $h1-margin-desktop: 0px 0px 0px 278px;
     $h2-margin-desktop: 0px 0px 50px 278px;
-    $h3-margin-desktop: 0px 0px 0px 140px;
+    $h3-margin-desktop: 50px 0px 0px 140px;
     $h4-margin-desktop: 100px 0px 20px 278px;
     $h5-margin-desktop: 40px 0px 20px 30px;
-    $h6-margin-desktop: 40px 0px 20px 30px;
+    $h6-margin-desktop: 40px 30px 20px 30px;
 
     $h4-footer-margin-desktop: 107px 0px 50px 0px;
 
-    $dash-margin-desktop: 0px 0px 100px 278px;
+    $dash-margin-desktop: 0px 0px 50px 278px;
 
     $button-margin-desktop: 50px 25px 50px 278px;
     $button-padding-desktop: 16px 60px 16px 30px;
 
-    $tag-margin-desktop: 20px 10px 40px 10px;
-    $tag-padding-desktop: 20px 10px 40px 10px;
+    $tag-margin-desktop: 10px 30px 40px 30px;
+    $tag-padding-desktop: 6px 10px;
 
-    $big-p-margin-desktop: 100px 0px 100px 278px;
-    $small-p-margin-desktop: 40px 30px 40px 30px;
+    $big-p-margin-desktop: 50px 0px 100px 278px;
+    $small-p-margin-desktop: 20px 30px 40px 30px;
     $footer-p-margin-desktop: 10px 0px 10px 0px;
 
-    $about-img-desktop: 100px 278px 100px 0px;
+    $about-img-margin-desktop: 50px 278px 100px 0px;
 
     $skills-field-margin-desktop: 50px 25px 50px 25px;
     $skills-field-padding-desktop: 50px 30px 50px 30px;
@@ -110,6 +111,8 @@
 
     $socials-icon-width-desktop: 30px;
     $socials-icon-background-width-desktop: 50px;
+
+    $karel-img-width-desktop: 300px;
 
     $projects-img-height-desktop: 240px;
 

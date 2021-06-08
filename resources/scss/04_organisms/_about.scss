@@ -18,19 +18,68 @@
         }
     }
 
-    &__p {
-        font-size: $p-font-size-mobile;
-        font-family: $ubuntu;
-        color: $lightgrey;
-        line-height: $line-height-mobile;
-        margin: $big-p-margin-mobile;
-        letter-spacing: 0.75px;
+    &__flexcontainer {
+        &__p {
+            font-size: $p-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            line-height: $line-height-mobile;
+            margin: $big-p-margin-mobile;
+            letter-spacing: 0.75px;
+        }
+    
+        &__img {
+            width: 100%;
+            border-radius: 10%;
+            padding: 0px 20px 0px 20px;
+            margin-bottom: 50px;
+        }
     }
+}
 
-    &__img {
-        width: 100%;
-        border-radius: 10%;
-        padding: 0px 20px 0px 20px;
-        margin-bottom: 50px;
+@media only screen and (min-width: 1281px) {
+    .about {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+            }
+    
+            &__dash {
+                display: inline-block;
+                width: $dash-width-mobile;
+                height: $dash-height-mobile;
+                margin: $dash-margin-desktop;
+                margin-bottom: 0;
+            }
+        }
+    
+        &__flexcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 100px;
+
+            &__p {
+                font-size: $p-big-font-size-desktop;
+                line-height: $line-height-desktop;
+                margin: $big-p-margin-desktop;
+                letter-spacing: 1px;
+                padding-right: 50px;
+                margin-bottom: 0;
+            }
+        
+            &__img {
+                display: inline-block;
+                max-width: 500px;
+                max-height: 260px;
+                width: auto;
+                height: auto;
+                border-radius: 10%;
+                margin: $about-img-margin-desktop;
+                margin-bottom: 0px;
+                padding-right: 0;
+            }
+        }
     }
 }

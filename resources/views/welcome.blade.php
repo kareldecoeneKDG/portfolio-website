@@ -62,29 +62,35 @@
 
 
                 <header class="top__header">
-                    <div class="top__header__karel">
-                        <img src="{{ url('img/karel1.png') }}" alt="img placeholder" class="top__header__karel__img">
-                    </div>
-
-                    <div class="top__header__titles">
-                        <h1 class="top__header__titles__h1">Hi, I'm Karel Decoene</h1>
-                        <h2 class="top__header__titles__h2">NxT web developer</h2>
-                    </div>
-
-                    <div class="top__header__ctas">
-                        <div class="top__header__ctas__background"><a href="#" class="top__header__ctas__background__projects">my projects <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                        <div class="top__header__ctas__background"><a href="#" class="top__header__ctas__background__contact">contact me <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                    </div>
-
-                    <div class="top__header__ctas2">
-                        <div class="top__header__ctas2__downloadcv">
-                            <a href="#" class="top__header__ctas2__downloadcv__button">download my cv</a>
+                    <div class="top__header__flexcontainer">
+                        <div class="top__header__flexcontainer__right">
+                            <div class="top__header__flexcontainer__right__karel">
+                                <img src="{{ url('img/karel1.png') }}" alt="img placeholder" class="top__header__flexcontainer__right__karel__img">
+                            </div>
                         </div>
 
-                        <div class="top__header__ctas2__socials">
-                            <div class="top__header__ctas2__socials__background"><a href="#" class="top__header__ctas2__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-                            <div class="top__header__ctas2__socials__background"><a href="#" class="top__header__ctas2__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                            <div class="top__header__ctas2__socials__background"><a href="#" class="top__header__ctas2__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                        <div class="top__header__flexcontainer__left">
+                            <div class="top__header__flexcontainer__left__titles">
+                                <h1 class="top__header__flexcontainer__left__titles__h1">Hi, I'm Karel Decoene</h1>
+                                <h2 class="top__header__flexcontainer__left__titles__h2">NxT web developer</h2>
+                            </div>
+
+                            <div class="top__header__flexcontainer__left__ctas">
+                                <div class="top__header__flexcontainer__left__ctas__background"><a href="#" class="top__header__flexcontainer__left__ctas__background__projects">my projects <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                                <div class="top__header__flexcontainer__left__ctas__background"><a href="#" class="top__header__flexcontainer__left__ctas__background__contact">contact me <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                            </div>
+
+                            <div class="top__header__flexcontainer__left__ctas2">
+                                <div class="top__header__flexcontainer__left__ctas2__downloadcv">
+                                    <a href="#" class="top__header__flexcontainer__left__ctas2__downloadcv__button">download my cv</a>
+                                </div>
+
+                                <div class="top__header__flexcontainer__left__ctas2__socials">
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -103,12 +109,14 @@
                     <div class="about__titlesection__dash"></div>
                 </div>
 
-                <p class="about__p">
-                    Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met.<br><br>
-                    Letters nam en ze door elkaar husselde om een font-catalogus te maken.
-                </p>
+                <div class="about__flexcontainer">
+                    <p class="about__flexcontainer__p">
+                        Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met.<br><br>
+                        Letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                    </p>
 
-                <img src="{{ url('img/front_shop.jpg') }}" alt="img placeholder" class="about__img">
+                    <img src="{{ url('img/front_shop.jpg') }}" alt="img placeholder" class="about__flexcontainer__img">
+                </div>
             </div>
             <!-- END ABOUT -->
 
@@ -122,97 +130,113 @@
 
                 <div class="skills__items">
                     <!-- SKILL -->
-                    <div class="skills__items__item">
-                        <h5 class="skills__items__item__h5">web development</h5>
+                    <div class="skills__items__item" id="skill1">
+                        <div class="skills__items__item__left">
+                            <h5 class="skills__items__item__h5">web development</h5>
 
-                        <div class="skills__items__item__tags">
-                            <span class="skills__items__item__tags__tag">HTML</span>
-                            <span class="skills__items__item__tags__tag">CSS</span>
-                            <span class="skills__items__item__tags__tag">JS</span>
-                            <span class="skills__items__item__tags__tag">PHP</span>
-                            <span class="skills__items__item__tags__tag">SQL</span>
-                            <span class="skills__items__item__tags__tag">SASS</span>
-                            <span class="skills__items__item__tags__tag">C#</span>
-                            <span class="skills__items__item__tags__tag">WORDPRESS</span>
+                            <div class="skills__items__item__tags">
+                                <span class="skills__items__item__tags__tag">HTML</span>
+                                <span class="skills__items__item__tags__tag">CSS</span>
+                                <span class="skills__items__item__tags__tag">JS</span>
+                                <span class="skills__items__item__tags__tag">PHP</span>
+                                <span class="skills__items__item__tags__tag">SQL</span>
+                                <span class="skills__items__item__tags__tag">SASS</span>
+                                <span class="skills__items__item__tags__tag">C#</span>
+                                <span class="skills__items__item__tags__tag">WORDPRESS</span>
+                            </div>
+
+                            <p class="skills__items__item__p">
+                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                            </p>
+
+                            <h6 class="skills__items__item__h6">learning</h6>
+
+                            <div class="skills__items__item__tags skills__items__item__tags2">
+                                <span class="skills__items__item__tags__tag">LARAVEL</span>
+                                <span class="skills__items__item__tags__tag">JQUERY</span>
+                                <span class="skills__items__item__tags__tag">BOOTSTRAP</span>
+                            </div>
                         </div>
 
-                        <p class="skills__items__item__p">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
-                        </p>
-
-                        <h6 class="skills__items__item__h6">learning</h6>
-
-                        <div class="skills__items__item__tags skills__items__item__tags2">
-                            <span class="skills__items__item__tags__tag">LARAVEL</span>
-                            <span class="skills__items__item__tags__tag">JQUERY</span>
-                            <span class="skills__items__item__tags__tag">BOOTSTRAP</span>
-                        </div>
-
-                        <div class="skills__items__item__background">
-                            <img src="{{ url('img/webdevelopment_icon.png') }}" alt="icon image" class="skills__items__item__background__icon">
-                        </div>
-                    </div>
-
-
-                    <!-- SKILL -->
-                    <div class="skills__items__item">
-                        <h5 class="skills__items__item__h5">web design</h5>
-
-                        <div class="skills__items__item__tags">
-                            <span class="skills__items__item__tags__tag">XD</span>
-                            <span class="skills__items__item__tags__tag">PHOTOSHOP</span>
-                            <span class="skills__items__item__tags__tag">ILLUSTRATOR</span>
-                            <span class="skills__items__item__tags__tag">LIGHTROOM</span>
-                            <span class="skills__items__item__tags__tag">UX</span>
-                            <span class="skills__items__item__tags__tag">UI</span>
-                        </div>
-
-                        <p class="skills__items__item__p__extra">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
-                        </p>
-
-                        <div class="skills__items__item__background__2">
-                            <img src="{{ url('img/webdesign_icon.png') }}" alt="icon image" class="skills__items__item__background__icon">
+                        <div class="skills__items__item__right">
+                            <div class="skills__items__item__right__container">
+                                <img src="{{ url('img/webdevelopment_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                            </div>
                         </div>
                     </div>
 
 
                     <!-- SKILL -->
-                    <div class="skills__items__item">
-                        <h5 class="skills__items__item__h5">branding</h5>
+                    <div class="skills__items__item" id="skill2">
+                        <div class="skills__items__item__left">
+                            <h5 class="skills__items__item__h5">web design</h5>
 
-                        <div class="skills__items__item__tags">
-                            <span class="skills__items__item__tags__tag">LOGO</span>
-                            <span class="skills__items__item__tags__tag">BUSINESS CARD</span>
-                            <span class="skills__items__item__tags__tag">FLYER</span>
+                            <div class="skills__items__item__tags">
+                                <span class="skills__items__item__tags__tag">XD</span>
+                                <span class="skills__items__item__tags__tag">PHOTOSHOP</span>
+                                <span class="skills__items__item__tags__tag">ILLUSTRATOR</span>
+                                <span class="skills__items__item__tags__tag">LIGHTROOM</span>
+                                <span class="skills__items__item__tags__tag">UX</span>
+                                <span class="skills__items__item__tags__tag">UI</span>
+                            </div>
+
+                            <p class="skills__items__item__p__extra">
+                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                            </p>
                         </div>
 
-                        <p class="skills__items__item__p__extra">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
-                        </p>
-
-                        <div class="skills__items__item__background__3">
-                            <img src="{{ url('img/branding_icon.png') }}" alt="icon image" class="skills__items__item__background__icon">
+                        <div class="skills__items__item__right__3">
+                            <div class="skills__items__item__right__2__container">
+                                <img src="{{ url('img/webdesign_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                            </div>
                         </div>
                     </div>
 
 
                     <!-- SKILL -->
-                    <div class="skills__items__item">
-                        <h5 class="skills__items__item__h5">content</h5>
+                    <div class="skills__items__item" id="skill3">
+                        <div class="skills__items__item__left">
+                            <h5 class="skills__items__item__h5">branding</h5>
 
-                        <div class="skills__items__item__tags">
-                            <span class="skills__items__item__tags__tag">PHOTO</span>
-                            <span class="skills__items__item__tags__tag">VIDEO</span>
-                            <span class="skills__items__item__tags__tag">SOCIAL MEDIA</span>
+                            <div class="skills__items__item__tags">
+                                <span class="skills__items__item__tags__tag">LOGO</span>
+                                <span class="skills__items__item__tags__tag">BUSINESS CARD</span>
+                                <span class="skills__items__item__tags__tag">FLYER</span>
+                            </div>
+
+                            <p class="skills__items__item__p__extra">
+                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                            </p>
                         </div>
 
-                        <p class="skills__items__item__p__extra">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
-                        </p>
+                        <div class="skills__items__item__right__2">
+                            <div class="skills__items__item__right__2__container">
+                                <img src="{{ url('img/branding_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                            </div>
+                        </div>
+                    </div>
 
-                        <div class="skills__items__item__background__4">
-                            <img src="{{ url('img/content_icon.png') }}" alt="icon image" class="skills__items__item__background__icon">
+
+                    <!-- SKILL -->
+                    <div class="skills__items__item" id="skill4">
+                        <div class="skills__items__item__left">
+                            <h5 class="skills__items__item__h5">content</h5>
+
+                            <div class="skills__items__item__tags">
+                                <span class="skills__items__item__tags__tag">PHOTO</span>
+                                <span class="skills__items__item__tags__tag">VIDEO</span>
+                                <span class="skills__items__item__tags__tag">SOCIAL MEDIA</span>
+                            </div>
+
+                            <p class="skills__items__item__p__extra">
+                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                            </p>
+                        </div>
+
+                        <div class="skills__items__item__right__2">
+                            <div class="skills__items__item__right__2__container">
+                                <img src="{{ url('img/content_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,7 +254,7 @@
 
                 <div class="projects__items">
                     <!-- PROJECT -->
-                    <div class="projects__items__item">
+                    <div class="projects__items__item" id="project1">
                         <div class="projects__items__item__image">
                             <img src="{{url('img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
@@ -248,7 +272,7 @@
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items__item">
+                    <div class="projects__items__item" id="project2">
                         <div class="projects__items__item__image">
                             <img src="{{url('img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
@@ -266,7 +290,7 @@
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items__item">
+                    <div class="projects__items__item" id="project3">
                         <div class="projects__items__item__image">
                             <img src="{{url('img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
@@ -283,7 +307,7 @@
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items__item">
+                    <div class="projects__items__item" id="project4">
                         <div class="projects__items__item__image">
                             <img src="{{url('img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                         </div>
@@ -319,8 +343,8 @@
                         <input type="submit" value="send" class="contact__formsection__form__submit">
                     </form>
 
-                    <div class="top__header__karel">
-                        <img src="{{ url('img/karel2.png') }}" alt="img placeholder" class="top__header__karel__img">
+                    <div class="contact__formsection__karel">
+                        <img src="{{ url('img/karel2.png') }}" alt="img placeholder" class="contact__formsection__karel__img">
                     </div>
                 </div>
             </div>
@@ -340,6 +364,7 @@
                         <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
                         <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
                         <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-github" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
 
@@ -365,6 +390,10 @@
                         <a href="#" class="footer__contactsection__links__link">0476 28 09 02</a>
                     </div>
 
+                </div>
+
+                <div class="footer__brand__upsection2">
+                    <div class="footer__brand__upsection2__background"><a href="#" class="footer__brand__upsection2__background__icon"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
                 </div>
             </footer>
             <!-- END FOOTER -->

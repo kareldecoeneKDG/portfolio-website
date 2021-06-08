@@ -29,20 +29,20 @@ $ubuntu: 'Ubuntu', sans-serif;
 
     /* DESKTOP */
 
-    $h1-font-size-desktop: 70px;
+    $h1-font-size-desktop: 60px;
     $h2-font-size-desktop: 40px;
-    $h3-font-size-desktop: 35px;
+    $h3-font-size-desktop: 30px;
     $h4-font-size-desktop: 35px;
-    $h5-font-size-desktop: 30px;
-    $h6-font-size-desktop: 20px;
+    $h5-font-size-desktop: 22px;
+    $h6-font-size-desktop: 18px;
 
     $h4-footer-font-size-desktop: 30px;
     
-    $menu-item-font-size-desktop: 30px;
-    $button-font-size-desktop: 22px;
+    $menu-item-font-size-desktop: 22px;
+    $button-font-size-desktop: 18px;
     $tag-font-size-desktop: 16px;
-    $p-big-font-size-desktop: 24px;
-    $p-small-font-size-desktop: 20px;
+    $p-big-font-size-desktop: 18px;
+    $p-small-font-size-desktop: 18px;
     $input-font-size-desktop: 25px;
 
 
@@ -62,3 +62,4 @@ $letter-spacing-big: 3px;
 /* __LINE-HEIGHT__ */
 
 $line-height-mobile: 24px;
+$line-height-desktop: 27px;
