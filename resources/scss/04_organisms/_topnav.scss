@@ -11,6 +11,10 @@ body, html {
 
     &__nav {
         &__title {
+            a {
+                text-decoration: none;
+            }
+
             display: inline-block;
 
             &__h3 {

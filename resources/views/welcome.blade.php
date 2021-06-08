@@ -25,7 +25,7 @@
 
 
     <body>
-        <div class="container">
+        <div class="container" id="container">
 
 
             <!-- BEGIN HEADER -->
@@ -35,19 +35,21 @@
 
                     <!-- LOGO -->
                     <div class="top__nav__title">
-                        <h3 class="top__nav__title__h3">
-                            KAREL<span class="top__nav__title__h3__dot">.</span>
-                        </h3>
+                        <a href="#container">
+                            <h3 class="top__nav__title__h3">
+                                KAREL<span class="top__nav__title__h3__dot">.</span>
+                            </h3>
+                        </a>
                     </div>
 
 
                     <!-- LINKS -->
                     <div class="top__nav__links nav-links">
                         <ul class="top__nav__links__list">
-                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">about</li></a>
-                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">skills</li></a>
-                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">projects</li></a>
-                            <a href="#" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">contact</li></a>
+                            <a href="#about" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">about</li></a>
+                            <a href="#skills" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">skills</li></a>
+                            <a href="#projects" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">projects</li></a>
+                            <a href="#contact" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">contact</li></a>
                         </ul>
                     </div>
 
@@ -76,8 +78,8 @@
                             </div>
 
                             <div class="top__header__flexcontainer__left__ctas">
-                                <div class="top__header__flexcontainer__left__ctas__background"><a href="#" class="top__header__flexcontainer__left__ctas__background__projects">my projects <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                                <div class="top__header__flexcontainer__left__ctas__background"><a href="#" class="top__header__flexcontainer__left__ctas__background__contact">contact me <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                                <a href="#projects" class="top__header__flexcontainer__left__ctas__background__projects"><div class="top__header__flexcontainer__left__ctas__background">my projects <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
+                                <a href="#contact" class="top__header__flexcontainer__left__ctas__background__contact"><div class="top__header__flexcontainer__left__ctas__background" id="contactButton">contact me <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
                             </div>
 
                             <div class="top__header__flexcontainer__left__ctas2">
@@ -86,9 +88,9 @@
                                 </div>
 
                                 <div class="top__header__flexcontainer__left__ctas2__socials">
-                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="#" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="https://www.instagram.com/kareldecoene/" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="https://www.facebook.com/karel.decoene.5/" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                                    <div class="top__header__flexcontainer__left__ctas2__socials__background"><a href="https://www.linkedin.com/in/karel-decoene-395478187/" class="top__header__flexcontainer__left__ctas2__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +105,7 @@
 
 
             <!-- BEGIN ABOUT -->
-            <div class="about">
+            <div class="about" id="about">
                 <div class="about__titlesection">
                     <h4 class="about__titlesection__h4">ABOUT ME</h4>
                     <div class="about__titlesection__dash"></div>
@@ -122,7 +124,7 @@
 
 
             <!-- BEGIN SKILLS -->
-            <div class="skills">
+            <div class="skills" id="skills">
                 <div class="skills__titlesection">
                     <h4 class="skills__titlesection__h4">SKILLS</h4>
                     <div class="skills__titlesection__dash"></div>
@@ -245,7 +247,7 @@
 
              
             <!-- BEGIN PROJECTS -->
-            <div class="projects">
+            <div class="projects" id="projects">
                 <div class="projects__titlesection">
                     <h4 class="projects__titlesection__h4">PROJECTS</h4>
                     <div class="projects__titlesection__dash"></div>
@@ -265,7 +267,7 @@
                             Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
                         </p>
 
-                        <a href="#" class="projects__items__item__button__extra">
+                        <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra">
                             <i class="fa fa-instagram" aria-hidden="true"></i> instagram
                         </a>
                     </div>
@@ -283,9 +285,8 @@
                             Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
                         </p>
 
-                        <a href="#" class="projects__items__item__button__extra">
-                            <i class="fa fa-instagram" aria-hidden="true"></i> instagram
-                        </a>
+                        <a href="https://www.instagram.com/presentonline_websites/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                        <a href="https://presentonline.karel.decoene.nxtmediatech.eu/overOns.php#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                     </div>
 
 
@@ -301,8 +302,8 @@
                             Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
                         </p>
 
-                        <a href="#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
-                        <a href="#" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        <a href="https://theboxverhuizingen.be/home" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        <a href="https://github.com/kareldecoeneKDG/the-box-verhuizingen2" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                     </div>
 
 
@@ -318,8 +319,8 @@
                             Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
                         </p>
 
-                        <a href="#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
-                        <a href="#" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        <a href="https://esportsplus.pieter.vanvalckenborgh.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        <a href="https://github.com/kareldecoeneKDG/esportsPlus" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                     </div>
                 </div>
             </div>
@@ -327,7 +328,7 @@
 
 
             <!-- BEGIN CONTACT -->
-            <div class="contact">
+            <div class="contact" id="contact">
                 <div class="contact__titlesection">
                     <h4 class="contact__titlesection__h4">GET IN TOUCH</h4>
                     <div class="contact__titlesection__dash"></div>
@@ -357,14 +358,14 @@
                     <h3 class="footer__brand__h3">KAREL.</h3>
 
                     <div class="footer__brand__upsection">
-                        <div class="footer__brand__upsection__background"><a href="#" class="footer__brand__upsection__background__icon"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+                        <a href="#container" class="footer__brand__upsection__background__icon"><div class="footer__brand__upsection__background"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></a>
                     </div>
 
                     <div class="footer__brand__socials">
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
-                        <div class="footer__brand__socials__background"><a href="#" class="footer__brand__socials__background__a"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="https://www.instagram.com/kareldecoene/" class="footer__brand__socials__background__a"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="https://www.facebook.com/karel.decoene.5/" class="footer__brand__socials__background__a"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="https://www.linkedin.com/in/karel-decoene-395478187/" class="footer__brand__socials__background__a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+                        <div class="footer__brand__socials__background"><a href="https://github.com/kareldecoeneKDG/portfolio-website" class="footer__brand__socials__background__a"><i class="fa fa-github" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
 
@@ -373,11 +374,11 @@
                     <h4 class="footer__linksection__h4">LINKS</h4>
 
                     <div class="footer__linksection__links">
-                        <a href="#" class="footer__linksection__links__link">home</a>
-                        <a href="#" class="footer__linksection__links__link">about</a>
-                        <a href="#" class="footer__linksection__links__link">skills</a>
-                        <a href="#" class="footer__linksection__links__link">projects</a>
-                        <a href="#" class="footer__linksection__links__link">contact</a>
+                        <a href="#container" class="footer__linksection__links__link">home</a>
+                        <a href="#about" class="footer__linksection__links__link">about</a>
+                        <a href="#skills" class="footer__linksection__links__link">skills</a>
+                        <a href="#projects" class="footer__linksection__links__link">projects</a>
+                        <a href="#contact" class="footer__linksection__links__link">contact</a>
                     </div>
                 </div>
 
@@ -393,7 +394,7 @@
                 </div>
 
                 <div class="footer__brand__upsection2">
-                    <div class="footer__brand__upsection2__background"><a href="#" class="footer__brand__upsection2__background__icon"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+                    <a href="#container" class="footer__brand__upsection2__background__icon"><div class="footer__brand__upsection2__background"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></a>
                 </div>
             </footer>
             <!-- END FOOTER -->

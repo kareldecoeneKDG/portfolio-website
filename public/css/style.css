@@ -58,6 +58,9 @@ body, html {
 .top__nav__title {
   display: inline-block;
 }
+.top__nav__title a {
+  text-decoration: none;
+}
 .top__nav__title__h3 {
   color: #353535;
   font-family: "Raleway", sans-serif;
@@ -245,9 +248,6 @@ body, html {
   margin-left: 20px;
   margin-top: 40px;
 }
-.top__header__flexcontainer__left__ctas__background:first-child {
-  margin-left: 0;
-}
 .top__header__flexcontainer__left__ctas__background:last-child {
   margin-left: 10px;
 }
@@ -269,6 +269,19 @@ body, html {
   font-size: 16px;
   font-weight: 700;
   padding-left: 5px;
+}
+.top__header__flexcontainer__left__ctas__background:first-child {
+  margin-left: 0;
+}
+.top__header__flexcontainer__left__ctas #contactButton {
+  margin-left: 15px;
+}
+.top__header__flexcontainer__left__ctas a {
+  font-family: "Rubik", sans-serif;
+  color: #EBEBEB;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
 }
 .top__header__flexcontainer__left__ctas2 {
   margin-top: 40px;
@@ -347,15 +360,18 @@ body, html {
     margin-left: 278px;
     margin-top: 40px;
   }
-  .top__header__flexcontainer__left__ctas__background:last-child {
-    margin-left: 15px;
-  }
   .top__header__flexcontainer__left__ctas__background {
     padding: 16px 60px 16px 30px;
     border-radius: 10px;
   }
   .top__header__flexcontainer__left__ctas__background a {
     font-size: 18px;
+  }
+  .top__header__flexcontainer__left__ctas__background:first-child {
+    margin-left: 0;
+  }
+  .top__header__flexcontainer__left__ctas #contactButton {
+    margin-left: 15px;
   }
   .top__header__flexcontainer__left__ctas2 {
     margin-top: 50px;
