@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>KAREL.</title>
+        <title>KAREL</title>
 
 
         <!-- Fonts -->
@@ -20,14 +20,16 @@
 
         <!-- Styles -->
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+        <!-- Faveicon -->
+        <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
     </head>
 
 
 
     <body>
         <div class="container" id="container">
-
-
             <!-- BEGIN HEADER -->
             <div class="top">
                 <nav class="top__nav">
@@ -67,7 +69,7 @@
                     <div class="top__header__flexcontainer">
                         <div class="top__header__flexcontainer__right">
                             <div class="top__header__flexcontainer__right__karel">
-                                <img src="{{ url('img/karel1.png') }}" alt="img placeholder" class="top__header__flexcontainer__right__karel__img">
+                                <img src="{{ url('img/karel_1.webp') }}" alt="img placeholder" class="top__header__flexcontainer__right__karel__img">
                             </div>
                         </div>
 
@@ -78,13 +80,13 @@
                             </div>
 
                             <div class="top__header__flexcontainer__left__ctas">
-                                <a href="#projects" class="top__header__flexcontainer__left__ctas__background__projects"><div class="top__header__flexcontainer__left__ctas__background">my projects <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
-                                <a href="#contact" class="top__header__flexcontainer__left__ctas__background__contact"><div class="top__header__flexcontainer__left__ctas__background" id="contactButton">contact me <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
+                                <a href="#projects" class="top__header__flexcontainer__left__ctas__background__a"><div class="top__header__flexcontainer__left__ctas__background"><span>my projects</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
+                                <a href="#contact" class="top__header__flexcontainer__left__ctas__background__a"><div class="top__header__flexcontainer__left__ctas__background" id="contactButton"><span>contact me</span> <i class="fa fa-angle-right" aria-hidden="true"></i></div></a>
                             </div>
 
                             <div class="top__header__flexcontainer__left__ctas2">
                                 <div class="top__header__flexcontainer__left__ctas2__downloadcv">
-                                    <a href="#" class="top__header__flexcontainer__left__ctas2__downloadcv__button">download my cv</a>
+                                    <a href="{{ url('pdf/CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
                                 </div>
 
                                 <div class="top__header__flexcontainer__left__ctas2__socials">
@@ -117,7 +119,7 @@
                         Letters nam en ze door elkaar husselde om een font-catalogus te maken.
                     </p>
 
-                    <img src="{{ url('img/front_shop.jpg') }}" alt="img placeholder" class="about__flexcontainer__img">
+                    <img src="{{ url('img/about.webp') }}" alt="img placeholder" class="about__flexcontainer__img">
                 </div>
             </div>
             <!-- END ABOUT -->
@@ -345,7 +347,7 @@
                     </form>
 
                     <div class="contact__formsection__karel">
-                        <img src="{{ url('img/karel2.png') }}" alt="img placeholder" class="contact__formsection__karel__img">
+                        <img src="{{ url('img/karel_2.webp') }}" alt="img placeholder" class="contact__formsection__karel__img">
                     </div>
                 </div>
             </div>
@@ -387,8 +389,8 @@
                     <h4 class="footer__contactsection__h4">CONTACT</h4>
 
                     <div class="footer__contactsection__links">
-                        <a href="#" class="footer__contactsection__links__link">karel.decoene@hotmail.com</a>
-                        <a href="#" class="footer__contactsection__links__link">0476 28 09 02</a>
+                        <a href="mailto:karel.decoene@hotmail.com" class="footer__contactsection__links__link">karel.decoene@hotmail.com</a>
+                        <a href="tel:+32476280902" class="footer__contactsection__links__link">0476 28 09 02</a>
                     </div>
 
                 </div>

@@ -38,8 +38,17 @@
     $input-margin-mobile: 12px 0px 12px 0px;
     $input-padding-mobile: 10px;
 
-    /* DESKTOP */
 
+
+    /* TABLET */
+    $margin-side-small-tablet: 50px;
+    $margin-side-big-tablet: 100px;
+
+    $button-padding-tablet: 12px 40px 12px 20px;
+
+
+
+    /* DESKTOP */
     $h1-margin-desktop: 0px 0px 0px 278px;
     $h2-margin-desktop: 0px 0px 50px 278px;
     $h3-margin-desktop: 50px 0px 0px 140px;
@@ -73,6 +82,14 @@
 
     $input-margin-desktop: 20px 0px 20px 0px;
     $input-padding-desktop: 11px 20px 11px 20px;
+
+    /* MONITOR QHD */
+    $margin-side-small-monitor-qhd: 460px;
+    $margin-side-big-monitor-qhd: 598px;
+
+    /* MONITOR 4K */
+    $margin-side-small-monitor-4k: 1100px;
+    $margin-side-big-monitor-4k: 1238px;
 
     
 

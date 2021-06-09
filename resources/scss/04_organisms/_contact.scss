@@ -67,6 +67,14 @@
                 border-radius: $border-radius;
                 margin-top: 10px;
                 border: none;
+                cursor: pointer;
+            }
+
+            &__submit:hover {
+                background-color: $lightgrey;
+                color: $black;
+                border: 1px solid $black;
+                transition: 0.5s;
             }
         }
 
@@ -75,6 +83,94 @@
                 width: 100%;
                 margin-left: auto;
                 margin-right: auto;
+            }
+        }
+    }
+}
+
+/* __TABLET__ */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact {
+        padding-bottom: 100px;
+    
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-tablet;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-tablet;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-tablet;
+            }
+        }
+    
+        &__formsection {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &__form {
+                padding-right: $margin-side-big-tablet;
+                width: 80%;
+                margin-left: 80px;
+                margin-right: 0;
+    
+                &__input {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                }
+    
+                &__input:focus {
+                    color: $black;
+                }
+    
+                &__textarea {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                    height: 300px;
+                }
+    
+                &__submit {
+                    background-color: $orange;
+                    padding: $button-padding-mobile;
+                    text-decoration: none;
+                    color: $lightgrey;
+                    font-weight: 700;
+                    font-size: $button-font-size-mobile;
+                    font-family: $rubik;
+                    border-radius: $border-radius;
+                    margin-top: 10px;
+                    border: none;
+                }
+            }
+            
+            &__karel {
+                margin-left: $margin-side-big-tablet;
+                //border: 1px solid $black;
+                border-radius: 50%;
+                text-align: center;
+
+                &__img {
+                    width: 400px;
+                }
             }
         }
     }
@@ -153,6 +249,182 @@
             
             &__karel {
                 margin-left: 200px;
+                //border: 1px solid $black;
+                border-radius: 50%;
+                text-align: center;
+
+                &__img {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .contact {
+        padding-bottom: 100px;
+    
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-monitor-qhd;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    
+        &__formsection {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &__form {
+                padding-right: 598px;
+                width: 80%;
+                margin-left: 80px;
+                margin-right: 0;
+    
+                &__input {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                }
+    
+                &__input:focus {
+                    color: $black;
+                }
+    
+                &__textarea {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                    height: 300px;
+                }
+    
+                &__submit {
+                    background-color: $orange;
+                    padding: $button-padding-mobile;
+                    text-decoration: none;
+                    color: $lightgrey;
+                    font-weight: 700;
+                    font-size: $button-font-size-mobile;
+                    font-family: $rubik;
+                    border-radius: $border-radius;
+                    margin-top: 10px;
+                    border: none;
+                }
+            }
+            
+            &__karel {
+                margin-left: 598px;
+                //border: 1px solid $black;
+                border-radius: 50%;
+                text-align: center;
+
+                &__img {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 2561px) {
+    .contact {
+        padding-bottom: 100px;
+    
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-monitor-4k;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-monitor-4k;
+            }
+        }
+    
+        &__formsection {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &__form {
+                padding-right: $margin-side-big-monitor-4k;
+                width: 80%;
+                margin-left: 80px;
+                margin-right: 0;
+    
+                &__input {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                }
+    
+                &__input:focus {
+                    color: $black;
+                }
+    
+                &__textarea {
+                    font-size: $input-font-size-mobile;
+                    font-family: $ubuntu;
+                    font-weight: 500;
+                    display: block;
+                    border: 1px solid $black;
+                    border-radius:$border-radius;
+                    color: $black;
+                    margin: $input-margin-mobile;
+                    padding: $input-padding-mobile;
+                    width: 100%;
+                    height: 300px;
+                }
+    
+                &__submit {
+                    background-color: $orange;
+                    padding: $button-padding-mobile;
+                    text-decoration: none;
+                    color: $lightgrey;
+                    font-weight: 700;
+                    font-size: $button-font-size-mobile;
+                    font-family: $rubik;
+                    border-radius: $border-radius;
+                    margin-top: 10px;
+                    border: none;
+                }
+            }
+            
+            &__karel {
+                margin-left: $margin-side-big-monitor-4k;
                 //border: 1px solid $black;
                 border-radius: 50%;
                 text-align: center;

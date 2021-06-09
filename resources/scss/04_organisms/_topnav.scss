@@ -77,9 +77,8 @@ body, html {
             z-index: 1;
             display: inline;
             float: right;
-            padding-top: 20px;
-            padding-right: 20px;
-            cursor: pointer;
+            margin-top: 20px;
+            margin-right: 20px;
 
             &__dash {
                 width: 25px;
@@ -128,6 +127,28 @@ body, html {
     background-color: $lightgrey;
 }
 
+
+
+
+
+/* __TABLET__ */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .top {
+        &__nav {
+            &__title {
+                &__h3 {
+                    padding-left: 50px;
+                    padding-top: 50px;
+                }
+            }
+
+            &__burger {
+                margin-top: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
 
 
 
@@ -186,6 +207,151 @@ body, html {
                             font-size: $menu-item-font-size-desktop;
                             opacity: 1;
                         }
+                    }
+
+                    &__a:hover {
+                        color: $darkgrey;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            &__burger {
+                display: none;
+            }
+        }
+    }
+}
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .top {
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+
+            &__title {
+                //display: inline-block;
+    
+                &__h3 {
+                    font-size: $h3-font-size-desktop;
+                    padding: $h3-margin-desktop;
+                    padding-left: $margin-side-small-monitor-qhd;
+                }
+            }
+
+            &__links {
+                position: static;
+                display: flex;
+                justify-content: space-evenly;
+                transform: translateX(0%);
+                transition: transform 0.5s ease-in;
+                width: 50%;
+                height: 85px;
+
+                &__list {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    background-color: $lightgrey;
+                    height: 85px;
+                    width: 100%;
+                    margin-right: $margin-side-small-monitor-qhd;
+
+                    &__a:first-child {
+                        margin-top: 50px;
+                    }
+
+                    &__a:last-child {
+                        margin-bottom: 0px;
+                        margin-right: 0;
+                    }
+
+                    &__a {
+                        text-decoration: none;
+                        margin-top: 50px;
+                        color: $black;
+                        margin-right: 100px;
+
+                        &__item {
+                            font-size: $menu-item-font-size-desktop;
+                            opacity: 1;
+                        }
+                    }
+
+                    &__a:hover {
+                        color: $darkgrey;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            &__burger {
+                display: none;
+            }
+        }
+    }
+}
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 2561px) {
+    .top {
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+
+            &__title {
+                //display: inline-block;
+    
+                &__h3 {
+                    font-size: $h3-font-size-desktop;
+                    padding: $h3-margin-desktop;
+                    padding-left: $margin-side-small-monitor-4k;
+                }
+            }
+
+            &__links {
+                position: static;
+                display: flex;
+                justify-content: space-evenly;
+                transform: translateX(0%);
+                transition: transform 0.5s ease-in;
+                width: 50%;
+                height: 85px;
+
+                &__list {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    background-color: $lightgrey;
+                    height: 85px;
+                    width: 100%;
+                    margin-right: $margin-side-small-monitor-4k;
+
+                    &__a:first-child {
+                        margin-top: 50px;
+                    }
+
+                    &__a:last-child {
+                        margin-bottom: 0px;
+                        margin-right: 0;
+                    }
+
+                    &__a {
+                        text-decoration: none;
+                        margin-top: 50px;
+                        color: $black;
+                        margin-right: 100px;
+
+                        &__item {
+                            font-size: $menu-item-font-size-desktop;
+                            opacity: 1;
+                        }
+                    }
+
+                    &__a:hover {
+                        color: $darkgrey;
+                        transition: 0.5s;
                     }
                 }
             }
