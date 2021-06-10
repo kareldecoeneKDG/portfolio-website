@@ -263,6 +263,101 @@
     }
 }
 
+/* __SMALL PC__ */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                margin-top: 150px;
+
+                &__right {
+                    &__karel {
+                        margin-top: 0px;
+                        margin-left: auto;
+                        margin-right: $margin-side-big-smallpc;
+                        width: 250px;
+            
+                        &__img {
+                            width: 100%;
+                        }
+                    }
+                }
+        
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin: $h1-margin-desktop;
+                            font-size: $h1-font-size-tablet;
+                            margin-left: $margin-side-big-smallpc;
+                        }
+            
+                        &__h2 {
+                            margin: $h2-margin-desktop;
+                            font-size: $h2-font-size-tablet;
+                            margin-left: $margin-side-big-smallpc;
+                        }
+                    }
+            
+                    &__ctas {
+                        margin-left: $margin-side-big-smallpc;
+                        margin-top: 40px;
+            
+                        &__background {
+                            padding: $button-padding-tablet;
+            
+                            a {
+                                font-size: $button-font-size-desktop;
+                            }
+                        }
+                    }
+            
+                    &__ctas2 {
+                        margin-top: 50px;
+            
+                        &__downloadcv {
+                            margin-left: $margin-side-big-smallpc;
+                
+                            &__button {
+                                font-size: $button-font-size-desktop;
+                                margin: $button-margin-desktop;
+                                padding: $button-padding-desktop;
+                                border-radius: $border-radius;
+                                font-weight: 700;
+                                text-decoration: underline;
+                                padding-left: 0;
+                                padding-right: 0;
+                                margin-right: 12px;
+                            }
+                        }
+                
+                        &__socials {
+                            &__background {
+                                &__a {
+                                    font-size: $button-font-size-desktop;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            &__scrolldown {
+                display: block;
+                text-align: center;
+                font-size: 25px;
+                color: $black;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 125px;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+
 
 
 

@@ -14,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/loader', function () {
     return view('loader');
 });
+
+/*Route::get('/home', function () {
+    return view('home');
+}); */
+
+Route::get('/home', 'App\Http\Controllers\ContactFormController@create');
+Route::post('/home', 'App\Http\Controllers\ContactFormController@store');
+
+//misschien veranderen naar /
+/*
+Route::get('/contact', 'App\Http\Controllers\ContactFormController@create');
+Route::post('/contact', 'App\Http\Controllers\ContactFormController@store');
+*/

@@ -11,9 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
+let minifier = require('minifier');
+
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
 
-mix.sass('resources/scss/05_pages/style.scss', 'public/css');
+mix
+.sass('resources/scss/05_pages/style.scss', 'public/css');
+
+mix.minify('public/css/style.css');

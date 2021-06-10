@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>KAREL</title>
+        <title>KAREL - NxT Web Developer</title>
 
 
         <!-- Fonts -->
@@ -19,11 +19,14 @@
 
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
 
         <!-- Faveicon -->
         <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
         <link rel="icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
+
+        <!-- Google reCAPTCHA -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
 
 
@@ -62,6 +65,8 @@
                         <div class="top__nav__burger__dash top__nav__burger__line2 line2"></div>
                         <div class="top__nav__burger__dash top__nav__burger__line3 line3"></div>
                     </div>
+
+                    
                 </nav>
 
 
@@ -86,7 +91,7 @@
 
                             <div class="top__header__flexcontainer__left__ctas2">
                                 <div class="top__header__flexcontainer__left__ctas2__downloadcv">
-                                    <a href="{{ url('pdf/CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
+                                    <a href="{{ url('pdf/KarelDecoene_CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
                                 </div>
 
                                 <div class="top__header__flexcontainer__left__ctas2__socials">
@@ -98,8 +103,14 @@
                         </div>
                     </div>
                     
-                    <div class="top__header__scrolldown">
+                    <!-- <div class="top__header__scrolldown">
                         <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div> -->
+
+                    <div class="scrolldown">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </header>
             </div>
@@ -115,8 +126,9 @@
 
                 <div class="about__flexcontainer">
                     <p class="about__flexcontainer__p">
-                        Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met.<br><br>
-                        Letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                    Hi there, my name is Karel Decoene. I’m 20 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
+                    I’m currently in my 2nd year of college and I’m studying <strong>NxT Media Technology</strong> with a focus on #webdevelopment at the <strong>KdG Hogeschool</strong> in Hoboken.
+
                     </p>
 
                     <img src="{{ url('img/about.webp') }}" alt="img placeholder" class="about__flexcontainer__img">
@@ -150,7 +162,8 @@
                             </div>
 
                             <p class="skills__items__item__p">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                            I create <strong>responsive</strong> websites with a #data-driven focus on #SEO and #performance. I usually make these manually using the above (programming)languages.<br><br>
+                            In addition, I learn to work with <strong>CMS systems and frameworks</strong> such as #wordpress, #laravel, & more.
                             </p>
 
                             <h6 class="skills__items__item__h6">learning</h6>
@@ -185,7 +198,8 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                                Every well-performing website starts with an attractive and <strong>user-friendly atomic design</strong>. In my designs the focus lies on <strong>#UX & #UI</strong>.<br><br>
+                                This allows you to create #interaction with your #visitors and generate more <strong>(online) sales</strong> as a company.
                             </p>
                         </div>
 
@@ -209,7 +223,7 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                                A company needs a beautiful & recognizable #branding. Using the #Adobe applications I design <strong>logos, business cards & more</strong> for companies and organizations. Questions? Do not hesitate to contact me.
                             </p>
                         </div>
 
@@ -233,7 +247,8 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst husselde om een font-catalogus te maken. responsive, vindbaar (SEO), performance, ...
+                                In addition to #websites, I often make photos and #content for <strong>social media</strong>.<br><br>
+                                This can range from taking <strong>product photos</strong> to writing a #blogpost. Be sure to check out my social media!
                             </p>
                         </div>
 
@@ -266,12 +281,14 @@
                         <h5 class="projects__items__item__h5">content & social media</h5>
 
                         <p class="projects__items__item__p">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                            Supercars From Everywhere is an account on #Instagram where I share photos of mainly exotic cars.<br><br>
+                            For me it was mainly about building a <strong>following</strong> and sharing my <strong>passion</strong> with others.
                         </p>
 
-                        <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra">
-                            <i class="fa fa-instagram" aria-hidden="true"></i> instagram
-                        </a>
+                        <div>
+                            <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                            <a href="https://wordpress1.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        </div>
                     </div>
 
 
@@ -284,11 +301,15 @@
                         <h5 class="projects__items__item__h5">website & content</h5>
 
                         <p class="projects__items__item__p">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                            When I was 17 years old, I wanted to start making websites for companies. If only I knew back then that you have to know more than just basic #HTML & #CSS.<br><br>
+                            In any case, the <strong>mindset</strong> was there. I made a simple website that was absolutely garbage but I definitely learned a lot with it.
+
                         </p>
 
-                        <a href="https://www.instagram.com/presentonline_websites/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
-                        <a href="https://presentonline.karel.decoene.nxtmediatech.eu/overOns.php#" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        <div>
+                            <a href="https://www.instagram.com/presentonline_websites/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                            <a href="https://presentonline.karel.decoene.nxtmediatech.eu/index.php" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        </div>
                     </div>
 
 
@@ -301,11 +322,14 @@
                         <h5 class="projects__items__item__h5">web design & development</h5>
 
                         <p class="projects__items__item__p">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                            In Feb. 2021 I had the chance to create my first website for a company. This gave me the opportunity to put my fresh knowledge (#Laravel, #Sass, #BEM, …) to the test.<br><br>
+                            It took me a few weeks from design to website, but in the end I'm relatively happy with the result. There's still a lot of room for <strong>improvement</strong> though!
                         </p>
 
-                        <a href="https://theboxverhuizingen.be/home" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
-                        <a href="https://github.com/kareldecoeneKDG/the-box-verhuizingen2" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        <div>
+                            <a href="https://theboxverhuizingen.be/home" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://github.com/kareldecoeneKDG/the-box-verhuizingen2" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        </div>
                     </div>
 
 
@@ -318,11 +342,14 @@
                         <h5 class="projects__items__item__h5">web design & development</h5>
 
                         <p class="projects__items__item__p">
-                            Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door.
+                            In my second year of college we worked on a fictional company called <strong>Esport+</strong>. This was a streaming platform like #Twitch but better.<br><br>
+                            This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things.
                         </p>
 
-                        <a href="https://esportsplus.pieter.vanvalckenborgh.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
-                        <a href="https://github.com/kareldecoeneKDG/esportsPlus" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        <div>
+                            <a href="https://esportsplus.pieter.vanvalckenborgh.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://github.com/kareldecoeneKDG/esportsPlus" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,10 +365,42 @@
 
                 <div class="contact__formsection">
                     <!-- FORM -->
+                    <!-- 
                     <form class="contact__formsection__form">
                         <input type="text" name="name" placeholder="name" class="contact__formsection__form__input">
                         <input type="text" name="email" placeholder="email" class="contact__formsection__form__input">
                         <textarea name="message" placeholder="message" class="contact__formsection__form__textarea"></textarea>
+                        <div class="g-recaptcha contact__formsection__form__checkbox" data-sitekey="6LfO8SMbAAAAAD1Gow31-m_lzq84T1K9R3-Fi-Kd"></div>
+
+                        <input type="submit" value="send" class="contact__formsection__form__submit">
+                    </form>
+                     -->
+                    
+                    <form action="/home/#contact" method="POST" class="contact__formsection__form">
+                        @if(session()->has('message'))
+                            <div class="contact__formsection__form__succesmessage">
+                                <strong>{{ session()->get('message') }}</strong>
+                            </div>
+                        @endif
+
+                        <div class="form-group">
+                            <div class="contact__formsection__form__errormessage">{{ $errors->first('name') }}</div>
+                            <input type="text" name="name" value="{{ old('name') }}" placeholder="name" class="contact__formsection__form__input form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="contact__formsection__form__errormessage">{{ $errors->first('email') }}</div>
+                            <input type="text" name="email" value="{{ old('email') }}" placeholder="email" class="contact__formsection__form__input form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="contact__formsection__form__errormessage">{{ $errors->first('message') }}</div>
+                            <textarea name="message" placeholder="message" class="contact__formsection__form__textarea">{{ old('message') }}</textarea>
+                        </div>
+
+                        <div class="g-recaptcha contact__formsection__form__checkbox form-control" data-sitekey="6LfO8SMbAAAAAD1Gow31-m_lzq84T1K9R3-Fi-Kd"></div>
+
+                        @csrf
 
                         <input type="submit" value="send" class="contact__formsection__form__submit">
                     </form>
