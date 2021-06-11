@@ -134,8 +134,8 @@ body, html {
 
 
 
-/* __TABLET__ */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
     .top {
         &__nav {
             &__title {
@@ -157,8 +157,8 @@ body, html {
 
 
 
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
     .top {
         &__nav {
             &__title {
@@ -249,7 +249,7 @@ body, html {
 
 
 /* __MONITOR QHD__ */
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+@media only screen and (min-width: 1921px) {
     .top {
         &__nav {
             &__title {
@@ -272,7 +272,7 @@ body, html {
 
 
 /* __MONITOR 4K__ */
-@media only screen and (min-width: 2561px) {
+@media only screen and (min-width: 3199px) {
     .top {
         &__nav {
             &__title {
