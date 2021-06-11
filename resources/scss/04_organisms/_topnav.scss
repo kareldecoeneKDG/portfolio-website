@@ -1,5 +1,3 @@
-/* __MOBILE/GENERAL__ */
-
 body, html {
     max-width: 100%;
     overflow-x: hidden;
@@ -11,11 +9,11 @@ body, html {
 
     &__nav {
         &__title {
+            display: inline-block;
+
             a {
                 text-decoration: none;
             }
-
-            display: inline-block;
 
             &__h3 {
                 color: $black;
@@ -95,37 +93,42 @@ body, html {
     }
 }
 
-/* MOBILE-NAV */
+/* MOBILE NAV ANIMATION */
 
-.nav-active {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
+    //SLIDES NAV LINKS IN
+    .nav-active {
+        transform: translateX(0%);
     }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
+
+    //KEYFRAMES FOR EACH INDIVIDUAL LINK FADE IN
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
     }
-}
 
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px,6px);
-    background-color: $lightgrey;
-}
+    //CHANGE HAMBURGER TO CROSS WHEN MENU IS OPENED
+    .toggle {
+        .line1 {
+            transform: rotate(-45deg) translate(-5px,6px);
+            background-color: $lightgrey;
+        }
 
-.toggle .line2 {
-    opacity: 0;
-}
+        .line2 {
+            opacity: 0;
+        }
 
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px,-6px);
-    width: 25px;
-    background-color: $lightgrey;
-}
+        .line3 {
+            transform: rotate(45deg) translate(-5px,-6px);
+            width: 25px;
+            background-color: $lightgrey;
+        }
+    }
 
 
 
@@ -150,6 +153,10 @@ body, html {
     }
 }
 
+
+
+
+
 /* __SMALL PC__ */
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .top {
@@ -173,7 +180,6 @@ body, html {
 
 
 /* __DESKTOP__ */
-
 @media only screen and (min-width: 1281px) {
     .top {
         &__nav {
@@ -181,8 +187,6 @@ body, html {
             justify-content: space-between;
 
             &__title {
-                //display: inline-block;
-    
                 &__h3 {
                     font-size: $h3-font-size-desktop;
                     padding: $h3-margin-desktop;
@@ -217,8 +221,6 @@ body, html {
                     }
 
                     &__a {
-                        text-decoration: none;
-                        margin-top: 50px;
                         color: $black;
                         margin-right: 100px;
 
@@ -241,142 +243,48 @@ body, html {
         }
     }
 }
+
+
+
+
 
 /* __MONITOR QHD__ */
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
     .top {
         &__nav {
-            display: flex;
-            justify-content: space-between;
-
             &__title {
-                //display: inline-block;
-    
                 &__h3 {
-                    font-size: $h3-font-size-desktop;
-                    padding: $h3-margin-desktop;
                     padding-left: $margin-side-small-monitor-qhd;
                 }
             }
 
             &__links {
-                position: static;
-                display: flex;
-                justify-content: space-evenly;
-                transform: translateX(0%);
-                transition: transform 0.5s ease-in;
-                width: 50%;
-                height: 85px;
-
                 &__list {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    background-color: $lightgrey;
-                    height: 85px;
-                    width: 100%;
                     margin-right: $margin-side-small-monitor-qhd;
-
-                    &__a:first-child {
-                        margin-top: 50px;
-                    }
-
-                    &__a:last-child {
-                        margin-bottom: 0px;
-                        margin-right: 0;
-                    }
-
-                    &__a {
-                        text-decoration: none;
-                        margin-top: 50px;
-                        color: $black;
-                        margin-right: 100px;
-
-                        &__item {
-                            font-size: $menu-item-font-size-desktop;
-                            opacity: 1;
-                        }
-                    }
-
-                    &__a:hover {
-                        color: $darkgrey;
-                        transition: 0.5s;
-                    }
                 }
-            }
-
-            &__burger {
-                display: none;
             }
         }
     }
 }
 
+
+
+
+
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 2561px) {
     .top {
         &__nav {
-            display: flex;
-            justify-content: space-between;
-
             &__title {
-                //display: inline-block;
-    
                 &__h3 {
-                    font-size: $h3-font-size-desktop;
-                    padding: $h3-margin-desktop;
                     padding-left: $margin-side-small-monitor-4k;
                 }
             }
 
             &__links {
-                position: static;
-                display: flex;
-                justify-content: space-evenly;
-                transform: translateX(0%);
-                transition: transform 0.5s ease-in;
-                width: 50%;
-                height: 85px;
-
                 &__list {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    background-color: $lightgrey;
-                    height: 85px;
-                    width: 100%;
                     margin-right: $margin-side-small-monitor-4k;
-
-                    &__a:first-child {
-                        margin-top: 50px;
-                    }
-
-                    &__a:last-child {
-                        margin-bottom: 0px;
-                        margin-right: 0;
-                    }
-
-                    &__a {
-                        text-decoration: none;
-                        margin-top: 50px;
-                        color: $black;
-                        margin-right: 100px;
-
-                        &__item {
-                            font-size: $menu-item-font-size-desktop;
-                            opacity: 1;
-                        }
-                    }
-
-                    &__a:hover {
-                        color: $darkgrey;
-                        transition: 0.5s;
-                    }
                 }
-            }
-
-            &__burger {
-                display: none;
             }
         }
     }

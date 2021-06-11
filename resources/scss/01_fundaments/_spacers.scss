@@ -1,8 +1,7 @@
 /* __SPACERS__ */
+/* MOBILE */
 
-    /* MOBILE */
     $margin-side: 20px;
-    $margin-side-big-desktop: 278px;
 
     $h1-margin-mobile: 30px 20px 0 20px;
     $h2-margin-mobile: 0px 20px 30px 20px;
@@ -10,7 +9,6 @@
     $h4-margin-mobile: 50px 0px 10px 20px;
     $h5-margin-mobile: 20px 0px 10px 20px;
     $h6-margin-mobile: 20px 0px 10px 20px;
-
     $h4-footer-margin-mobile: 50px 0px 10px 20px;
 
     $dash-margin-mobile: 0px 0px 20px 20px;
@@ -40,24 +38,39 @@
 
 
 
-    /* TABLET */
+
+
+/* TABLET */
+
     $margin-side-small-tablet: 50px;
     $margin-side-big-tablet: 100px;
 
     $button-padding-tablet: 12px 40px 12px 20px;
 
-    /* SMALL PC */
+
+
+
+
+/* SMALL PC */
+    
     $margin-side-big-smallpc: 150px;
 
 
-    /* DESKTOP */
+
+
+
+/* DESKTOP */
+
+    $margin-side-small-desktop: 140px;
+    $margin-side-big-desktop: 278px;
+
+
     $h1-margin-desktop: 0px 0px 0px 278px;
     $h2-margin-desktop: 0px 0px 50px 278px;
     $h3-margin-desktop: 50px 0px 0px 140px;
     $h4-margin-desktop: 100px 0px 20px 278px;
     $h5-margin-desktop: 40px 0px 20px 30px;
     $h6-margin-desktop: 40px 30px 20px 30px;
-
     $h4-footer-margin-desktop: 107px 0px 50px 0px;
 
     $dash-margin-desktop: 0px 0px 50px 278px;
@@ -85,11 +98,21 @@
     $input-margin-desktop: 20px 0px 20px 0px;
     $input-padding-desktop: 11px 20px 11px 20px;
 
-    /* MONITOR QHD */
+    
+    
+    
+    
+/* MONITOR QHD */
+
     $margin-side-small-monitor-qhd: 460px;
     $margin-side-big-monitor-qhd: 598px;
 
-    /* MONITOR 4K */
+    
+    
+    
+    
+/* MONITOR 4K */
+
     $margin-side-small-monitor-4k: 1100px;
     $margin-side-big-monitor-4k: 1238px;
 
@@ -98,8 +121,7 @@
 
 
 /* __WIDTH / HEIGHT__ */
-
-    /* __MOBILE__ */
+/* __MOBILE__ */
 
     $dash-width-mobile: 50px;
     $dash-height-mobile: 8px;
@@ -119,7 +141,11 @@
 
     $scroll-down-arrow-width-mobile: 25px;
 
-    /* __DESKTOP__ */
+    
+    
+    
+    
+/* __DESKTOP__ */
 
     $dash-width-desktop: 100px;
     $dash-height-desktop: 10px;

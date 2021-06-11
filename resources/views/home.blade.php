@@ -19,7 +19,7 @@
 
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
         <!-- Faveicon -->
         <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
@@ -33,11 +33,13 @@
 
     <body>
         <div class="container" id="container">
-            <!-- BEGIN HEADER -->
+            
+            
+            <!-- BEGIN TOP -->
             <div class="top">
+
+                <!-- BEGIN NAV -->
                 <nav class="top__nav">
-
-
                     <!-- LOGO -->
                     <div class="top__nav__title">
                         <a href="#container">
@@ -65,11 +67,11 @@
                         <div class="top__nav__burger__dash top__nav__burger__line2 line2"></div>
                         <div class="top__nav__burger__dash top__nav__burger__line3 line3"></div>
                     </div>
-
-                    
                 </nav>
+                <!-- END NAV -->
 
 
+                <!-- BEGIN HEADER -->
                 <header class="top__header">
                     <div class="top__header__flexcontainer">
                         <div class="top__header__flexcontainer__right">
@@ -102,10 +104,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- <div class="top__header__scrolldown">
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </div> -->
 
                     <div class="scrolldown">
                         <span></span>
@@ -113,8 +111,10 @@
                         <span></span>
                     </div>
                 </header>
+                <!-- BEGIN HEADER -->
+
             </div>
-            <!-- END HEADER -->
+            <!-- END TOP -->
 
 
             <!-- BEGIN ABOUT -->
@@ -274,16 +274,18 @@
                 <div class="projects__items">
                     <!-- PROJECT -->
                     <div class="projects__items__item" id="project1">
-                        <div class="projects__items__item__image">
-                            <img src="{{url('img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                        <div>
+                            <div class="projects__items__item__image">
+                                <img src="{{url('img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                            </div>
+
+                            <h5 class="projects__items__item__h5">content & social media</h5>
+
+                            <p class="projects__items__item__p">
+                                Supercars From Everywhere is an account on #Instagram where I share photos of mainly exotic cars.<br><br>
+                                For me it was mainly about building a <strong>following</strong> and sharing my <strong>passion</strong> with others. The website is build using Wordpress (first time for me) and was just an experiment.
+                            </p>
                         </div>
-
-                        <h5 class="projects__items__item__h5">content & social media</h5>
-
-                        <p class="projects__items__item__p">
-                            Supercars From Everywhere is an account on #Instagram where I share photos of mainly exotic cars.<br><br>
-                            For me it was mainly about building a <strong>following</strong> and sharing my <strong>passion</strong> with others.
-                        </p>
 
                         <div>
                             <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
@@ -294,17 +296,18 @@
 
                     <!-- PROJECT -->
                     <div class="projects__items__item" id="project2">
-                        <div class="projects__items__item__image">
-                            <img src="{{url('img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                        <div>
+                            <div class="projects__items__item__image">
+                                <img src="{{url('img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                            </div>
+
+                            <h5 class="projects__items__item__h5">website & content</h5>
+
+                            <p class="projects__items__item__p">
+                                When I was 17 years old, I wanted to start making websites for companies. If only I knew back then that you have to know more than just basic #HTML & #CSS.<br><br>
+                                In any case, the <strong>mindset</strong> was there. I made a simple website that was absolutely garbage but I definitely learned a lot with it.
+                            </p>
                         </div>
-
-                        <h5 class="projects__items__item__h5">website & content</h5>
-
-                        <p class="projects__items__item__p">
-                            When I was 17 years old, I wanted to start making websites for companies. If only I knew back then that you have to know more than just basic #HTML & #CSS.<br><br>
-                            In any case, the <strong>mindset</strong> was there. I made a simple website that was absolutely garbage but I definitely learned a lot with it.
-
-                        </p>
 
                         <div>
                             <a href="https://www.instagram.com/presentonline_websites/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
@@ -315,16 +318,18 @@
 
                     <!-- PROJECT -->
                     <div class="projects__items__item" id="project3">
-                        <div class="projects__items__item__image">
-                            <img src="{{url('img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                        <div>
+                            <div class="projects__items__item__image">
+                                <img src="{{url('img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                            </div>
+
+                            <h5 class="projects__items__item__h5">web design & development</h5>
+
+                            <p class="projects__items__item__p">
+                                In Feb. 2021 I had the chance to create my first website for a company. This gave me the opportunity to put my fresh knowledge (#Laravel, #Sass, #BEM, …) to the test.<br><br>
+                                It took me a few weeks from design to website, but in the end I'm relatively happy with the result. There's still a lot of room for <strong>improvement</strong> though!
+                            </p>
                         </div>
-
-                        <h5 class="projects__items__item__h5">web design & development</h5>
-
-                        <p class="projects__items__item__p">
-                            In Feb. 2021 I had the chance to create my first website for a company. This gave me the opportunity to put my fresh knowledge (#Laravel, #Sass, #BEM, …) to the test.<br><br>
-                            It took me a few weeks from design to website, but in the end I'm relatively happy with the result. There's still a lot of room for <strong>improvement</strong> though!
-                        </p>
 
                         <div>
                             <a href="https://theboxverhuizingen.be/home" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
@@ -335,16 +340,18 @@
 
                     <!-- PROJECT -->
                     <div class="projects__items__item" id="project4">
-                        <div class="projects__items__item__image">
-                            <img src="{{url('img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                        <div>
+                            <div class="projects__items__item__image">
+                                <img src="{{url('img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                            </div>
+
+                            <h5 class="projects__items__item__h5">web design & development</h5>
+
+                            <p class="projects__items__item__p">
+                                In my second year of college we worked on a fictional company called <strong>Esport+</strong>. This was a streaming platform like #Twitch but better.<br><br>
+                                This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things.
+                            </p>
                         </div>
-
-                        <h5 class="projects__items__item__h5">web design & development</h5>
-
-                        <p class="projects__items__item__p">
-                            In my second year of college we worked on a fictional company called <strong>Esport+</strong>. This was a streaming platform like #Twitch but better.<br><br>
-                            This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things.
-                        </p>
 
                         <div>
                             <a href="https://esportsplus.pieter.vanvalckenborgh.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
@@ -364,18 +371,6 @@
                 </div>
 
                 <div class="contact__formsection">
-                    <!-- FORM -->
-                    <!-- 
-                    <form class="contact__formsection__form">
-                        <input type="text" name="name" placeholder="name" class="contact__formsection__form__input">
-                        <input type="text" name="email" placeholder="email" class="contact__formsection__form__input">
-                        <textarea name="message" placeholder="message" class="contact__formsection__form__textarea"></textarea>
-                        <div class="g-recaptcha contact__formsection__form__checkbox" data-sitekey="6LfO8SMbAAAAAD1Gow31-m_lzq84T1K9R3-Fi-Kd"></div>
-
-                        <input type="submit" value="send" class="contact__formsection__form__submit">
-                    </form>
-                     -->
-                    
                     <form action="/home/#contact" method="POST" class="contact__formsection__form">
                         @if(session()->has('message'))
                             <div class="contact__formsection__form__succesmessage">
@@ -415,6 +410,9 @@
 
             <!-- BEGIN FOOTER -->
             <footer class="footer">
+
+
+                <!-- BEGIN BRAND -->
                 <div class="footer__brand">
                     <h3 class="footer__brand__h3">KAREL.</h3>
 
@@ -429,8 +427,10 @@
                         <div class="footer__brand__socials__background"><a href="https://github.com/kareldecoeneKDG/portfolio-website" class="footer__brand__socials__background__a"><i class="fa fa-github" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
+                <!-- END BRAND -->
 
 
+                <!-- BEGIN LINKS -->
                 <div class="footer__linksection">
                     <h4 class="footer__linksection__h4">LINKS</h4>
 
@@ -442,8 +442,10 @@
                         <a href="#contact" class="footer__linksection__links__link">contact</a>
                     </div>
                 </div>
+                <!-- END LINKS -->
 
 
+                <!-- BEGIN CONTACT LINKS -->
                 <div class="footer__contactsection">
                     <h4 class="footer__contactsection__h4">CONTACT</h4>
 
@@ -451,16 +453,21 @@
                         <a href="mailto:karel.decoene@hotmail.com" class="footer__contactsection__links__link">karel.decoene@hotmail.com</a>
                         <a href="tel:+32476280902" class="footer__contactsection__links__link">0476 28 09 02</a>
                     </div>
-
                 </div>
+                <!-- END CONTACT LINKS -->
+
 
                 <div class="footer__brand__upsection2">
                     <a href="#container" class="footer__brand__upsection2__background__icon"><div class="footer__brand__upsection2__background"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></a>
                 </div>
+
+
             </footer>
             <!-- END FOOTER -->
         </div>
 
+
+        <!-- JAVASCRIPT MOBILE NAV -->
         <script src="{{ url('js/burger.js') }}"></script>
     </body>
 </html>

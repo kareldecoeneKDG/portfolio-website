@@ -1,5 +1,6 @@
 .footer {
     padding-bottom: 50px;
+    background-color: $orange;
 
     &__brand {
         &__h3 {
@@ -114,8 +115,12 @@
     }
 }
 
+
+
+
+
 /* __TABLET__ */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     .footer {
         padding-bottom: 100px;
         display: flex;
@@ -127,9 +132,9 @@
         &__brand {
             &__h3 {
                 padding: $h3-margin-desktop;
-                padding-bottom: 25px;
-                font-size: 25px;
+                font-size: $h4-font-size-mobile;
                 padding-left: 0;
+                padding-bottom: 25px;
                 padding-top: 100px;
             }
     
@@ -171,23 +176,11 @@
     
         &__linksection {
             &__h4 {
-                font-size: $h4-font-size-mobile;
-                padding: $h4-margin-mobile;
                 padding-bottom: 25px;
                 padding-top: 100px;
             }
     
             &__links {
-                &__link {
-                    text-decoration: none;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-
                 &__link:first-child {
                     padding-top: 0px;
                 }
@@ -196,439 +189,62 @@
     
         &__contactsection {
             &__h4 {
-                font-size: $h4-font-size-mobile;
-                font-family: $ubuntu;
-                color: $lightgrey;
-                padding: $h4-margin-mobile;
                 padding-top: 100px;
             }
     
             &__links {
-                &__link {
-                    text-decoration: underline;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
+                &__link:first-child {
+                    padding-top: 15px;
                 }
             }
         }
     }
 }
+
+
+
+
 
 /* __SMALL PC__ */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) {
     .footer {
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-left: $margin-side-big-smallpc;
         padding-right: $margin-side-big-smallpc;
-    
-        &__brand {
-            &__h3 {
-                padding: $h3-margin-desktop;
-                padding-bottom: 25px;
-                font-size: 25px;
-                padding-left: 0;
-                padding-top: 100px;
-            }
-    
-            &__upsection {
-                display: none;
-            }
-
-            &__upsection2 {
-                display: inline;
-                float: right;
-        
-                &__background {
-                    padding: 12px;
-                    border-radius: 50%;
-                    margin-top: 100px;
-                    margin-right: 0;
-                    background-color: $lightgrey;
-        
-                    &__icon {
-                        color: $orange;
-                        font-size: $button-font-size-mobile;
-                    }
-                }
-
-                &__background:hover {
-                    background-color: $grey;
-                    transition: 0.5s;
-                }
-            }
-    
-            &__socials {
-                margin-left: 0;
-
-                &__background:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-    
-        &__linksection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                padding: $h4-margin-mobile;
-                padding-bottom: 25px;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: none;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-
-                &__link:first-child {
-                    padding-top: 0px;
-                }
-            }
-        }
-    
-        &__contactsection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                font-family: $ubuntu;
-                color: $lightgrey;
-                padding: $h4-margin-mobile;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: underline;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-            }
-        }
     }
 }
 
+
+
+
+
+/* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
     .footer {
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 140px;
-        padding-right: 140px;
-    
-        &__brand {
-            &__h3 {
-                padding: $h3-margin-desktop;
-                padding-bottom: 25px;
-                font-size: 25px;
-                padding-left: 0;
-                padding-top: 100px;
-            }
-    
-            &__upsection {
-                display: none;
-            }
-
-            &__upsection2 {
-                display: inline;
-                float: right;
-        
-                &__background {
-                    padding: 12px;
-                    border-radius: 50%;
-                    margin-top: 100px;
-                    margin-right: 0;
-                    background-color: $lightgrey;
-        
-                    &__icon {
-                        color: $orange;
-                        font-size: $button-font-size-mobile;
-                    }
-                }
-
-                &__background:hover {
-                    background-color: $grey;
-                    transition: 0.5s;
-                }
-            }
-    
-            &__socials {
-                margin-left: 0;
-
-                &__background:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-    
-        &__linksection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                padding: $h4-margin-mobile;
-                padding-bottom: 25px;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: none;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-
-                &__link:first-child {
-                    padding-top: 0px;
-                }
-            }
-        }
-    
-        &__contactsection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                font-family: $ubuntu;
-                color: $lightgrey;
-                padding: $h4-margin-mobile;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: underline;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-            }
-        }
+        padding-left: $margin-side-small-desktop;
+        padding-right: $margin-side-small-desktop;
     }
 }
+
+
+
+
 
 /* __MONITOR QHD__ */
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+@media only screen and (min-width: 1921px) {
     .footer {
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-left: $margin-side-small-monitor-qhd;
         padding-right: $margin-side-small-monitor-qhd;
-    
-        &__brand {
-            &__h3 {
-                padding: $h3-margin-desktop;
-                padding-bottom: 25px;
-                font-size: 25px;
-                padding-left: 0;
-                padding-top: 100px;
-            }
-    
-            &__upsection {
-                display: none;
-            }
-
-            &__upsection2 {
-                display: inline;
-                float: right;
-        
-                &__background {
-                    padding: 12px;
-                    border-radius: 50%;
-                    margin-top: 100px;
-                    margin-right: 0;
-                    background-color: $lightgrey;
-        
-                    &__icon {
-                        color: $orange;
-                        font-size: $button-font-size-mobile;
-                    }
-                }
-
-                &__background:hover {
-                    background-color: $darkgrey;
-                    transition: 0.5s;
-                }
-            }
-    
-            &__socials {
-                margin-left: 0;
-
-                &__background:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-    
-        &__linksection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                padding: $h4-margin-mobile;
-                padding-bottom: 25px;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: none;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-
-                &__link:first-child {
-                    padding-top: 0px;
-                }
-            }
-        }
-    
-        &__contactsection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                font-family: $ubuntu;
-                color: $lightgrey;
-                padding: $h4-margin-mobile;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: underline;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-            }
-        }
     }
 }
+
+
+
+
 
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 2561px) {
     .footer {
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-left: $margin-side-small-monitor-4k;
         padding-right: $margin-side-small-monitor-4k;
-    
-        &__brand {
-            &__h3 {
-                padding: $h3-margin-desktop;
-                padding-bottom: 25px;
-                font-size: 25px;
-                padding-left: 0;
-                padding-top: 100px;
-            }
-    
-            &__upsection {
-                display: none;
-            }
-
-            &__upsection2 {
-                display: inline;
-                float: right;
-        
-                &__background {
-                    padding: 12px;
-                    border-radius: 50%;
-                    margin-top: 100px;
-                    margin-right: 0;
-                    background-color: $lightgrey;
-        
-                    &__icon {
-                        color: $orange;
-                        font-size: $button-font-size-mobile;
-                    }
-                }
-
-                &__background:hover {
-                    background-color: $darkgrey;
-                    transition: 0.5s;
-                }
-            }
-    
-            &__socials {
-                margin-left: 0;
-
-                &__background:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-    
-        &__linksection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                padding: $h4-margin-mobile;
-                padding-bottom: 25px;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: none;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-
-                &__link:first-child {
-                    padding-top: 0px;
-                }
-            }
-        }
-    
-        &__contactsection {
-            &__h4 {
-                font-size: $h4-font-size-mobile;
-                font-family: $ubuntu;
-                color: $lightgrey;
-                padding: $h4-margin-mobile;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link {
-                    text-decoration: underline;
-                    color: $lightgrey;
-                    padding: 8px 20px 0px 20px;
-                    display: block;
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    font-weight: 500;
-                }
-            }
-        }
     }
 }

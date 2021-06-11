@@ -1,11 +1,13 @@
 .projects {
+    background-color: $lightgrey;
+
     &__titlesection {
         &__h4 {
             font-size: $h4-font-size-mobile;
             font-family: $rubik;
             color: $black;
             padding: $h4-margin-mobile;
-            letter-spacing: 1px;
+            letter-spacing: $letter-spacing-big;
         }
 
         &__dash {
@@ -51,13 +53,13 @@
                 color: $black;
                 font-weight: 400;
                 line-height: $line-height-mobile;
-                letter-spacing: 0.5px;
+                letter-spacing: $letter-spacing-medium;
                 margin-bottom: 15px;
                 padding-top: 15px;
             }
 
             &__button:last-child {
-                margin-left: 10px;
+                margin-left: 8px;
             }
 
             &__button {
@@ -115,7 +117,7 @@
 }
 
 /* __TABLET__ */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     .projects {
         &__titlesection {
             &__h4 {
@@ -132,8 +134,7 @@
     
         &__items {
             display: grid;
-            grid-template-columns: "auto auto";
-            grid-template-rows: "auto auto";
+            grid-template-columns: 50% 50%;
             grid-template-areas: "project1 project2"
                                  "project3 project4";
             
@@ -160,20 +161,8 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                background-color: $white;
-                border-radius: $border-radius;
                 margin-top: 0px;
                 padding-bottom: 40px;
-                
-                &__image {
-                    text-align: center;
-    
-                    &__img {
-                        height: 115px;
-                        margin: 40px auto 30px auto;
-                        opacity: 0.3;
-                    }
-                }
     
                 &__h5 {
                     font-size: $h5-font-size-desktop;
@@ -181,22 +170,14 @@
                 }
     
                 &__p {
-                    //font-size: 16px;
                     padding: $small-p-margin-desktop;
                     line-height: $line-height-desktop;
-                    letter-spacing: 0.5px;
+                    letter-spacing: $letter-spacing-medium;
                     margin-bottom: 0px;
                     padding-top: 0px;
                 }
     
-                &__button:last-child {
-                    margin-left: 8px;
-                }
-    
                 &__button {
-                    padding: $button-padding-mobile;
-                    margin: $button-margin-mobile;
-                    font-size: $button-font-size-mobile;
                     margin-left: 30px;
     
                     &__extra {
@@ -205,10 +186,6 @@
                         i {
                             padding-right: 4px;
                         }
-                    }
-    
-                    i {
-                        padding-right: 4px;
                     }
                 }
             }
@@ -229,101 +206,30 @@
     }
 }
 
+
+
+
+
 /* __SMALL PC__ */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) {
     .projects {
         &__titlesection {
             &__h4 {
-                font-size: $h4-font-size-tablet;
-                padding: $h4-margin-desktop;
                 padding-left: $margin-side-big-smallpc;
             }
     
             &__dash {
-                margin: $dash-margin-desktop;
                 margin-left: $margin-side-big-smallpc;
             }
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: "auto auto";
-            grid-template-rows: "auto auto";
-            grid-template-areas: "project1 project2"
-                                 "project3 project4";
-            
-            grid-gap: 25px;
             padding: 0px $margin-side-big-smallpc 100px $margin-side-big-smallpc;
-
-            #project1 {
-                grid-area: project1;
-            }
-
-            #project2 {
-                grid-area: project2;
-            }
-
-            #project3 {
-                grid-area: project3;
-            }
-
-            #project4 {
-                grid-area: project4;
-            }
     
             &__item {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                background-color: $white;
-                border-radius: $border-radius;
-                margin-top: 0px;
-                padding-bottom: 40px;
-                
                 &__image {
-                    text-align: center;
-    
                     &__img {
-                        height: 115px;
-                        margin: 40px auto 30px auto;
                         opacity: 0.3;
-                    }
-                }
-    
-                &__h5 {
-                    font-size: $h5-font-size-desktop;
-                    padding: $h5-margin-desktop;
-                }
-    
-                &__p {
-                    //font-size: 16px;
-                    padding: $small-p-margin-desktop;
-                    line-height: $line-height-desktop;
-                    letter-spacing: 0.5px;
-                    margin-bottom: 0px;
-                    padding-top: 0px;
-                }
-    
-                &__button:last-child {
-                    margin-left: 8px;
-                }
-    
-                &__button {
-                    padding: $button-padding-mobile;
-                    margin: $button-margin-mobile;
-                    font-size: $button-font-size-mobile;
-                    margin-left: 30px;
-    
-                    &__extra {
-                        margin-left: 30px;
-    
-                        i {
-                            padding-right: 4px;
-                        }
-                    }
-    
-                    i {
-                        padding-right: 4px;
                     }
                 }
             }
@@ -336,14 +242,15 @@
                     }
                 }
             }
-    
-            &__item:first-child {
-                margin-top: 0px;
-            }
         }
     }
 }
 
+
+
+
+
+/* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
     .projects {
         &__titlesection {
@@ -358,324 +265,53 @@
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: "auto auto";
-            grid-template-rows: "auto auto";
-            grid-template-areas: "project1 project2"
-                                 "project3 project4";
-            
-            grid-gap: 25px;
             padding: 0px 278px 100px 278px;
-
-            #project1 {
-                grid-area: project1;
-            }
-
-            #project2 {
-                grid-area: project2;
-            }
-
-            #project3 {
-                grid-area: project3;
-            }
-
-            #project4 {
-                grid-area: project4;
-            }
-    
-            &__item {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                background-color: $white;
-                border-radius: $border-radius;
-                margin-top: 0px;
-                padding-bottom: 40px;
-                
-                &__image {
-                    text-align: center;
-    
-                    &__img {
-                        height: 115px;
-                        margin: 40px auto 30px auto;
-                        opacity: 0.3;
-                    }
-                }
-    
-                &__h5 {
-                    font-size: $h5-font-size-desktop;
-                    padding: $h5-margin-desktop;
-                }
-    
-                &__p {
-                    font-size: $p-small-font-size-desktop;
-                    padding: $small-p-margin-desktop;
-                    line-height: $line-height-desktop;
-                    letter-spacing: 0.5px;
-                    margin-bottom: 0px;
-                    padding-top: 0px;
-                }
-    
-                &__button:last-child {
-                    margin-left: 8px;
-                }
-    
-                &__button {
-                    padding: $button-padding-mobile;
-                    margin: $button-margin-mobile;
-                    font-size: $button-font-size-mobile;
-                    margin-left: 30px;
-    
-                    &__extra {
-                        margin-left: 30px;
-    
-                        i {
-                            padding-right: 4px;
-                        }
-                    }
-    
-                    i {
-                        padding-right: 4px;
-                    }
-                }
-            }
-
-            &__item:hover {
-                div {
-                    img {
-                        opacity: 1;
-                        transition: 0.5s;
-                    }
-                }
-            }
-    
-            &__item:first-child {
-                margin-top: 0px;
-            }
         }
     }
 }
 
+
+
+
+
 /* __MONITOR QHD__ */
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+@media only screen and (min-width: 1921px) {
     .projects {
         &__titlesection {
             &__h4 {
-                font-size: $h4-font-size-desktop;
-                padding: $h4-margin-desktop;
                 padding-left: $margin-side-big-monitor-qhd;
             }
     
             &__dash {
-                margin: $dash-margin-desktop;
                 margin-left: $margin-side-big-monitor-qhd;
             }
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: "auto auto";
-            grid-template-rows: "auto auto";
-            grid-template-areas: "project1 project2"
-                                 "project3 project4";
-            
-            grid-gap: 25px;
             padding: 0px 598px 100px 598px;
-
-            #project1 {
-                grid-area: project1;
-            }
-
-            #project2 {
-                grid-area: project2;
-            }
-
-            #project3 {
-                grid-area: project3;
-            }
-
-            #project4 {
-                grid-area: project4;
-            }
-    
-            &__item {
-                background-color: $white;
-                border-radius: $border-radius;
-                margin-top: 0px;
-                padding-bottom: 40px;
-                
-                &__image {
-                    text-align: center;
-    
-                    &__img {
-                        height: 115px;
-                        margin: 40px auto 30px auto;
-                        opacity: 0.3;
-                    }
-                }
-    
-                &__h5 {
-                    font-size: $h5-font-size-desktop;
-                    padding: $h5-margin-desktop;
-                }
-    
-                &__p {
-                    font-size: $p-small-font-size-desktop;
-                    padding: $small-p-margin-desktop;
-                    line-height: $line-height-desktop;
-                    letter-spacing: 0.5px;
-                    margin-bottom: 0px;
-                    padding-top: 0px;
-                }
-    
-                &__button:last-child {
-                    margin-left: 8px;
-                }
-    
-                &__button {
-                    padding: $button-padding-mobile;
-                    margin: $button-margin-mobile;
-                    font-size: $button-font-size-mobile;
-                    margin-left: 30px;
-    
-                    &__extra {
-                        margin-left: 30px;
-    
-                        i {
-                            padding-right: 4px;
-                        }
-                    }
-    
-                    i {
-                        padding-right: 4px;
-                    }
-                }
-            }
-
-            &__item:hover {
-                div {
-                    img {
-                        opacity: 1;
-                        transition: 0.5s;
-                    }
-                }
-            }
-    
-            &__item:first-child {
-                margin-top: 0px;
-            }
         }
     }
 }
+
+
+
+
 
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 2561px) {
     .projects {
         &__titlesection {
             &__h4 {
-                font-size: $h4-font-size-desktop;
-                padding: $h4-margin-desktop;
                 padding-left: $margin-side-big-monitor-4k;
             }
     
             &__dash {
-                margin: $dash-margin-desktop;
                 margin-left: $margin-side-big-monitor-4k;
             }
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: "auto auto";
-            grid-template-rows: "auto auto";
-            grid-template-areas: "project1 project2"
-                                 "project3 project4";
-            
-            grid-gap: 25px;
             padding: 0px 1238px 100px 1238px;
-
-            #project1 {
-                grid-area: project1;
-            }
-
-            #project2 {
-                grid-area: project2;
-            }
-
-            #project3 {
-                grid-area: project3;
-            }
-
-            #project4 {
-                grid-area: project4;
-            }
-    
-            &__item {
-                background-color: $white;
-                border-radius: $border-radius;
-                margin-top: 0px;
-                padding-bottom: 40px;
-                
-                &__image {
-                    text-align: center;
-    
-                    &__img {
-                        height: 115px;
-                        margin: 40px auto 30px auto;
-                        opacity: 0.3;
-                    }
-                }
-    
-                &__h5 {
-                    font-size: $h5-font-size-desktop;
-                    padding: $h5-margin-desktop;
-                }
-    
-                &__p {
-                    font-size: $p-small-font-size-desktop;
-                    padding: $small-p-margin-desktop;
-                    line-height: $line-height-desktop;
-                    letter-spacing: 0.5px;
-                    margin-bottom: 0px;
-                    padding-top: 0px;
-                }
-    
-                &__button:last-child {
-                    margin-left: 8px;
-                }
-    
-                &__button {
-                    padding: $button-padding-mobile;
-                    margin: $button-margin-mobile;
-                    font-size: $button-font-size-mobile;
-                    margin-left: 30px;
-    
-                    &__extra {
-                        margin-left: 30px;
-    
-                        i {
-                            padding-right: 4px;
-                        }
-                    }
-    
-                    i {
-                        padding-right: 4px;
-                    }
-                }
-            }
-
-            &__item:hover {
-                div {
-                    img {
-                        opacity: 1;
-                        transition: 0.5s;
-                    }
-                }
-            }
-    
-            &__item:first-child {
-                margin-top: 0px;
-            }
         }
     }
 }
