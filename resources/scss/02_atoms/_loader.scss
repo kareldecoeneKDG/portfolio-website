@@ -165,7 +165,7 @@ body {
 
 
 /* __MONITOR QHD__ */
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+@media only screen and (min-width: 1921px) {
     .scrolldown {
         top: 30vh;
     }
@@ -176,8 +176,8 @@ body {
 
 
 /* __MONITOR 4K__ */
-@media only screen and (min-width: 2561px) {
+@media only screen and (min-width: 3199px) {
     .scrolldown {
-        top: 40vh;
+        top: 36vh;
     }
 }

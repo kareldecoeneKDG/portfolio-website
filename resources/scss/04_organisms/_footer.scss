@@ -119,13 +119,10 @@
 
 
 
-/* __TABLET__ */
+/* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .footer {
         padding-bottom: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-left: $margin-side-small-tablet;
         padding-right: $margin-side-small-tablet;
     
@@ -138,6 +135,93 @@
                 padding-top: 100px;
             }
     
+            &__upsection {
+                display: inline;
+                float: right;
+
+                &__background {
+                    background-color: $lightgrey;
+                    padding: 12px;
+                    border-radius: 50%;
+                    margin-top: 100px;
+                    margin-right: $margin-side;
+
+                    &__icon {
+                        color: $orange;
+                        font-size: $button-font-size-mobile;
+                    }
+                }
+            }
+
+            &__upsection2 {
+                display: none;
+
+                &__background:hover {
+                    background-color: $grey;
+                    transition: 0.5s;
+                }
+            }
+    
+            &__socials {
+                margin-left: 0;
+
+                &__background:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    
+        &__linksection {
+            &__h4 {
+                padding-bottom: 25px;
+                padding-top: 100px;
+                padding-left: 0;
+            }
+    
+            &__links {
+                &__link {
+                    padding-left: 0;
+                }
+
+                &__link:first-child {
+                    padding-top: 0px;
+                }
+            }
+        }
+    
+        &__contactsection {
+            &__h4 {
+                padding-top: 100px;
+                padding-left: 0;
+            }
+    
+            &__links {
+                &__link {
+                    padding-left: 0;
+                }
+
+                &__link:first-child {
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: $margin-side-small-smallpc;
+        padding-right: $margin-side-small-smallpc;
+    
+        &__brand {
             &__upsection {
                 display: none;
             }
@@ -164,52 +248,7 @@
                     transition: 0.5s;
                 }
             }
-    
-            &__socials {
-                margin-left: 0;
-
-                &__background:first-child {
-                    margin-left: 0;
-                }
-            }
         }
-    
-        &__linksection {
-            &__h4 {
-                padding-bottom: 25px;
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link:first-child {
-                    padding-top: 0px;
-                }
-            }
-        }
-    
-        &__contactsection {
-            &__h4 {
-                padding-top: 100px;
-            }
-    
-            &__links {
-                &__link:first-child {
-                    padding-top: 15px;
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) {
-    .footer {
-        padding-left: $margin-side-big-smallpc;
-        padding-right: $margin-side-big-smallpc;
     }
 }
 

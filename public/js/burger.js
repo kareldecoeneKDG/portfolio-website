@@ -1,7 +1,9 @@
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.top__nav__links__list__a__item');
+    const navLinks = document.querySelectorAll('.nav-links ul a li');
+
+
 
     burger.addEventListener('click', () => {
         //Toggle Nav
@@ -18,8 +20,8 @@ const navSlide = () => {
 
         //Burger animation
         burger.classList.toggle('toggle');
-
     });
+
 }
 
 navSlide();

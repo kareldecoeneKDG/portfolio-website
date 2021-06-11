@@ -116,7 +116,7 @@
     }
 }
 
-/* __TABLET__ */
+/* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .projects {
         &__titlesection {
@@ -133,36 +133,13 @@
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-areas: "project1 project2"
-                                 "project3 project4";
-            
-            grid-gap: 25px;
-            padding: 0px 100px 100px 100px;
-
-            #project1 {
-                grid-area: project1;
-            }
-
-            #project2 {
-                grid-area: project2;
-            }
-
-            #project3 {
-                grid-area: project3;
-            }
-
-            #project4 {
-                grid-area: project4;
-            }
+            padding: 0px 0px 100px 0px;
     
             &__item {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                margin-top: 0px;
+                margin-top: 30px;
                 padding-bottom: 40px;
+                margin-left: $margin-side-big-tablet;
+                margin-right: $margin-side-big-tablet;
     
                 &__h5 {
                     font-size: $h5-font-size-desktop;
@@ -189,15 +166,6 @@
                     }
                 }
             }
-
-            &__item:hover {
-                div {
-                    img {
-                        opacity: 1;
-                        transition: 0.5s;
-                    }
-                }
-            }
     
             &__item:first-child {
                 margin-top: 0px;
@@ -210,8 +178,8 @@
 
 
 
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) {
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
     .projects {
         &__titlesection {
             &__h4 {
@@ -224,9 +192,38 @@
         }
     
         &__items {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "project1 project2"
+                                 "project3 project4";
+            
+            grid-gap: 25px;
             padding: 0px $margin-side-big-smallpc 100px $margin-side-big-smallpc;
+
+            #project1 {
+                grid-area: project1;
+            }
+
+            #project2 {
+                grid-area: project2;
+            }
+
+            #project3 {
+                grid-area: project3;
+            }
+
+            #project4 {
+                grid-area: project4;
+            }
     
             &__item {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 0px;
+                margin-left: 0;
+                margin-right: 0;
+
                 &__image {
                     &__img {
                         opacity: 0.3;

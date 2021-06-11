@@ -159,21 +159,7 @@ body, html {
 
 /* __SMALL PC / TABLET LANDSCAPE__ */
 @media only screen and (min-width: 1024px) {
-    .top {
-        &__nav {
-            &__title {
-                &__h3 {
-                    padding-left: 50px;
-                    padding-top: 50px;
-                }
-            }
-
-            &__burger {
-                margin-top: 50px;
-                margin-right: 50px;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 

@@ -28,7 +28,7 @@
             margin-right: $margin-side;
             background-color: $lightgrey;
             border-radius: $border-radius;
-            margin-top: 25px;
+            margin-top: 30px;
             padding-bottom: 70px;
 
             &__h5 {
@@ -133,7 +133,7 @@
 
 
 
-/* __TABLET__ */
+/* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .skills {
         &__titlesection {
@@ -150,35 +150,12 @@
         }
     
         &__items {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-areas: "skill1 skill2"
-                                   "skill3 skill4";
-
-            padding: 0px 100px 100px 100px;
-            grid-gap: 25px;
-            
-            #skill1 {
-                grid-area: skill1;
-            }
-
-            #skill2 {
-                grid-area: skill2;
-            }
-
-            #skill3 {
-                grid-area: skill3;
-            }
-
-            #skill4 {
-                grid-area: skill4;
-            }
+            padding: 0px 0px 100px 0px;
     
             &__item {
-                display: flex;
-                flex-direction: row;
-                padding-bottom: 20px;
-                margin: 0;
+                margin-left: $margin-side-big-tablet;
+                margin-right: $margin-side-big-tablet;
+                margin-top: 30px;
     
                 &__h5 {
                     font-size: $h5-font-size-desktop;
@@ -279,8 +256,8 @@
 
 
 
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) {
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
     .skills {
         &__titlesection {
             &__h4 {
@@ -293,9 +270,36 @@
         }
     
         &__items {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "skill1 skill2"
+                                   "skill3 skill4";
+
             padding: 0px $margin-side-big-smallpc 100px $margin-side-big-smallpc;
+            grid-gap: 25px;
+            
+            #skill1 {
+                grid-area: skill1;
+            }
+
+            #skill2 {
+                grid-area: skill2;
+            }
+
+            #skill3 {
+                grid-area: skill3;
+            }
+
+            #skill4 {
+                grid-area: skill4;
+            }
     
             &__item {
+                display: flex;
+                flex-direction: row;
+                padding-bottom: 20px;
+                margin: 0;
+
                 &__tags2 {
                     margin-bottom: 20px;
                 }

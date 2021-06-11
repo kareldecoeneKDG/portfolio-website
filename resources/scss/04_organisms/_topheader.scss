@@ -167,21 +167,16 @@
 
 
 
-/* __TABLET__ */
+/* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .top {
         &__header {
             &__flexcontainer {
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: space-between;
-                margin-top: 150px;
+                margin-top: 10vh;
 
                 &__right {
                     &__karel {
-                        margin-top: 0px;
-                        margin-left: auto;
-                        margin-right: $margin-side-big-tablet;
+                        margin: 0px auto 5vh auto;
                         width: 250px;
                     }
                 }
@@ -250,15 +245,20 @@
 
 
 
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) {
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
     .top {
         &__header {
             &__flexcontainer {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
                 margin-top: 18vh;
 
                 &__right {
                     &__karel {
+                        margin-top: 0px;
+                        margin-left: auto;
                         margin-right: $margin-side-big-smallpc;
                     }
                 }

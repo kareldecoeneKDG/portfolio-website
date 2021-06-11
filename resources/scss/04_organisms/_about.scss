@@ -43,13 +43,7 @@
 
 
 
-/* __TABLET PORTRAIT */
-/* coming soon */
-
-
-
-
-/* __TABLET LANDSCAPE__ */
+/* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .about {
         &__titlesection {
@@ -67,30 +61,29 @@
         }
     
         &__flexcontainer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
             padding-bottom: 100px;
 
             &__p {
                 font-size: $p-font-size-tablet;
                 margin: $big-p-margin-desktop;
                 letter-spacing: $letter-spacing-medium;
-                padding-right: 50px;
+                padding-right: 0;
                 margin-bottom: 0;
                 margin-left: $margin-side-big-tablet;
+                margin-right: $margin-side-big-tablet;
             }
         
             &__img {
                 display: inline-block;
-                max-width: 500px;
-                max-height: 260px;
-                width: auto;
+                width: 75%;
                 height: auto;
                 margin: $about-img-margin-desktop;
                 margin-bottom: 0px;
                 padding-right: 0;
                 margin-right: $margin-side-big-tablet;
+                margin-left: $margin-side-big-tablet;
+                padding-left: 0;
+                border-radius: $border-radius;
             }
         }
     }
@@ -100,8 +93,8 @@
 
 
 
-/* __SMALL PC__ */
-@media only screen and (min-width: 1025px) {
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
     .about {
         &__titlesection {
             &__h4 {
@@ -114,13 +107,22 @@
         }
     
         &__flexcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
             &__p {
+                padding-right: 100px;
+                margin-right: 0;
                 margin-left: $margin-side-big-smallpc;
             }
         
             &__img {
-                padding-right: 0;
+                max-width: 350px;
+                max-height: 182px;
+                width: auto;
                 margin-right: $margin-side-big-smallpc;
+                margin-left: 0;
             }
         }
     }
