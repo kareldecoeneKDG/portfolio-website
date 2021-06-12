@@ -105,11 +105,13 @@
                         </div>
                     </div>
 
-                    <div class="scrolldown">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                    <a href="#about">
+                        <div class="scrolldown">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
                 </header>
                 <!-- BEGIN HEADER -->
 

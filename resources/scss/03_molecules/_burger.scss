@@ -1,0 +1,82 @@
+.top {
+    &__nav {
+        &__burger {
+            z-index: 1;
+            display: inline;
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+
+            &__dash {
+                width: 25px;
+                height: 3px;
+                background-color: $black;
+                margin: 5px;
+                transition: all 0.5s ease;
+            }
+
+            &__line3 {
+                width: 14px;
+            }
+        }
+    }
+}
+
+/* MOBILE NAV ANIMATION */
+    //CHANGE HAMBURGER TO CROSS WHEN MENU IS OPENED
+    .toggle {
+        .line1 {
+            transform: rotate(-45deg) translate(-5px,6px);
+            background-color: $lightgrey;
+        }
+
+        .line2 {
+            opacity: 0;
+        }
+
+        .line3 {
+            transform: rotate(45deg) translate(-5px,-6px);
+            width: 25px;
+            background-color: $lightgrey;
+        }
+    }
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .top {
+        &__nav {
+            &__burger {
+                margin-top: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    //Nothing to add. Just for structure.
+}
+
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .top {
+        &__nav {
+            &__burger {
+                display: none;
+            }
+        }
+    }
+}

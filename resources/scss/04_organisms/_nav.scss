@@ -1,0 +1,50 @@
+//Nothing to add. Just for structure.
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    //Nothing to add. Just for structure.
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    //Nothing to add. Just for structure.
+}
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .top {
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) {
+    //Nothing to add. Just for structure.
+}
+
+
+
+
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 3199px) {
+    //Nothing to add. Just for structure.
+}

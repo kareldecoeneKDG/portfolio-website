@@ -1,0 +1,214 @@
+.top {
+    &__nav {
+        &__title {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+            }
+
+            &__h3 {
+                color: $black;
+                font-family: $raleway;
+                letter-spacing: $letter-spacing-big;
+                font-size: $h4-font-size-mobile;
+                padding-left: 20px;
+                padding-top: 20px;
+
+                &__dot {
+                    color: $orange;
+                }
+            }
+        }
+    }
+
+    &__header {
+        &__flexcontainer {    
+            &__left {
+                &__titles {
+                    &__h1 {
+                        margin: $h1-margin-mobile;
+                        font-size: $h1-font-size-mobile;
+                        color: $black;
+                        font-family: $rubik;
+                        font-weight: bold;
+                        margin-top: 50px;
+                    }
+        
+                    &__h2 {
+                        margin: $h2-margin-mobile;
+                        font-size: $h2-font-size-mobile;
+                        color: $darkgrey;
+                        font-family: $rubik;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .top {
+        &__nav {
+            &__title {
+                &__h3 {
+                    padding-left: 50px;
+                    padding-top: 50px;
+                }
+            }
+        }
+
+        &__header {
+            &__flexcontainer {
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin: $h1-margin-desktop;
+                            font-size: $h1-font-size-tablet;
+                            margin-left: $margin-side-big-tablet;
+                        }
+            
+                        &__h2 {
+                            margin: $h2-margin-desktop;
+                            font-size: $h2-font-size-tablet;
+                            margin-left: $margin-side-big-tablet;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin-left: $margin-side-big-smallpc;
+                        }
+            
+                        &__h2 {
+                            margin-left: $margin-side-big-smallpc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .top {
+        &__nav {
+            &__title {
+                &__h3 {
+                    font-size: $h3-font-size-desktop;
+                    padding: $h3-margin-desktop;
+                }
+            }
+        }
+
+        &__header {
+            &__flexcontainer {
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin: $h1-margin-desktop;
+                        }
+            
+                        &__h2 {
+                            margin: $h2-margin-desktop;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) {
+    .top {
+        &__nav {
+            &__title {
+                &__h3 {
+                    padding-left: $margin-side-small-monitor-qhd;
+                }
+            }
+        }
+
+        &__header {
+            &__flexcontainer {
+                margin-top: 27vh;
+        
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin-left: $margin-side-big-monitor-qhd;
+                        }
+            
+                        &__h2 {
+                            margin-left: $margin-side-big-monitor-qhd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 3199px) {
+    .top {
+        &__nav {
+            &__title {
+                &__h3 {
+                    padding-left: $margin-side-small-monitor-4k;
+                }
+            }
+        }
+
+        &__header {
+            &__flexcontainer {
+                &__left {
+                    &__titles {
+                        &__h1 {
+                            margin-left: $margin-side-big-monitor-4k;
+                        }
+            
+                        &__h2 {
+                            margin-left: $margin-side-big-monitor-4k;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

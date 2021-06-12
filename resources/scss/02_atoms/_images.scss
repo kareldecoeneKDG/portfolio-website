@@ -1,0 +1,119 @@
+.top {
+    &__header {
+        &__flexcontainer {
+            &__right {
+                &__karel {
+                    text-align: center;
+                    border-radius: 50%;
+                    width: $karel-img-width-mobile;
+                    width: 175px;
+                    margin: 50px auto 0px auto;
+        
+                    &__img {
+                        width: 100%;
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__right {
+                    &__karel {
+                        margin: 0px auto 5vh auto;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__right {
+                    &__karel {
+                        margin-top: 0px;
+                        margin-left: auto;
+                        margin-right: $margin-side-big-smallpc;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__right {
+                    &__karel {
+                        margin-right: $margin-side-big-desktop;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__right {
+                    &__karel {
+                        margin-right: $margin-side-big-monitor-qhd;
+                        width: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 3199px) {
+    .top {
+        &__header {
+            &__flexcontainer {
+                &__right {
+                    &__karel {
+                        margin-right: $margin-side-big-monitor-4k;
+                    }
+                }
+            }
+        }
+    }
+}

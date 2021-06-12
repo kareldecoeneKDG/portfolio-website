@@ -1,34 +1,5 @@
-body, html {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 .top {
-    background-color: $lightgrey;
-    height: 100vh;
-
     &__nav {
-        &__title {
-            display: inline-block;
-
-            a {
-                text-decoration: none;
-            }
-
-            &__h3 {
-                color: $black;
-                font-family: $raleway;
-                letter-spacing: $letter-spacing-big;
-                font-size: $h4-font-size-mobile;
-                padding-left: 20px;
-                padding-top: 20px;
-
-                &__dot {
-                    color: $orange;
-                }
-            }
-        }
-
         &__links {
             position: fixed;
             right: 0;
@@ -70,31 +41,10 @@ body, html {
                 }
             }
         }
-
-        &__burger {
-            z-index: 1;
-            display: inline;
-            float: right;
-            margin-top: 20px;
-            margin-right: 20px;
-
-            &__dash {
-                width: 25px;
-                height: 3px;
-                background-color: $black;
-                margin: 5px;
-                transition: all 0.5s ease;
-            }
-
-            &__line3 {
-                width: 14px;
-            }
-        }
     }
 }
 
 /* MOBILE NAV ANIMATION */
-
     //SLIDES NAV LINKS IN
     .nav-active {
         transform: translateX(0%);
@@ -112,45 +62,13 @@ body, html {
         }
     }
 
-    //CHANGE HAMBURGER TO CROSS WHEN MENU IS OPENED
-    .toggle {
-        .line1 {
-            transform: rotate(-45deg) translate(-5px,6px);
-            background-color: $lightgrey;
-        }
-
-        .line2 {
-            opacity: 0;
-        }
-
-        .line3 {
-            transform: rotate(45deg) translate(-5px,-6px);
-            width: 25px;
-            background-color: $lightgrey;
-        }
-    }
-
 
 
 
 
 /* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
-    .top {
-        &__nav {
-            &__title {
-                &__h3 {
-                    padding-left: 50px;
-                    padding-top: 50px;
-                }
-            }
-
-            &__burger {
-                margin-top: 50px;
-                margin-right: 50px;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -165,20 +83,11 @@ body, html {
 
 
 
+
 /* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
     .top {
         &__nav {
-            display: flex;
-            justify-content: space-between;
-
-            &__title {
-                &__h3 {
-                    font-size: $h3-font-size-desktop;
-                    padding: $h3-margin-desktop;
-                }
-            }
-
             &__links {
                 position: static;
                 display: flex;
@@ -222,10 +131,6 @@ body, html {
                     }
                 }
             }
-
-            &__burger {
-                display: none;
-            }
         }
     }
 }
@@ -238,12 +143,6 @@ body, html {
 @media only screen and (min-width: 1921px) {
     .top {
         &__nav {
-            &__title {
-                &__h3 {
-                    padding-left: $margin-side-small-monitor-qhd;
-                }
-            }
-
             &__links {
                 &__list {
                     margin-right: $margin-side-small-monitor-qhd;
@@ -261,12 +160,6 @@ body, html {
 @media only screen and (min-width: 3199px) {
     .top {
         &__nav {
-            &__title {
-                &__h3 {
-                    padding-left: $margin-side-small-monitor-4k;
-                }
-            }
-
             &__links {
                 &__list {
                     margin-right: $margin-side-small-monitor-4k;

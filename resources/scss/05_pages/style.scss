@@ -3,12 +3,30 @@
 @import '../01_fundaments/general';
 @import '../01_fundaments/spacers';
 
-@import '../02_atoms/loader';
+@import '../02_atoms/titles';
+@import '../02_atoms/images';
 
-@import '../04_organisms/topnav';
-@import '../04_organisms/topheader';
+@import '../03_molecules/navlinks';
+@import '../03_molecules/burger';
+@import '../03_molecules/cta';
+
+
+
+//TO DO
 @import '../04_organisms/about';
 @import '../04_organisms/skills';
 @import '../04_organisms/projects';
 @import '../04_organisms/contact';
 @import '../04_organisms/footer';
+
+
+
+
+//DONE
+@import '../04_organisms/top';
+@import '../04_organisms/nav';
+@import '../04_organisms/topheader';
+
+
+@import '../04_organisms/loader';
+@import '../04_organisms/scrollanimation.scss';
