@@ -15,8 +15,6 @@ class ContactFormController extends Controller
 
     public function store()
     {
-        return redirect('home')->with('message', 'Thanks for your message. You\'ll hear from me soon.');
-
         $data = request()->validate([
             'name' => 'required',
             'email' => 'required|email',
@@ -24,5 +22,7 @@ class ContactFormController extends Controller
         ]);
         
         Mail::to('karel.decoene3@gmail.com')->send(new ContactFormMail($data));
+
+        return redirect('home')->with('message', 'Thanks for your message. You\'ll hear from me soon.');
     }
 }
