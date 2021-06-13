@@ -21,8 +21,8 @@ Route::get('/', function () {
     return view('home');
 }); */
 
-Route::get('/home', 'App\Http\Controllers\ContactFormController@create');
-Route::post('/home', 'App\Http\Controllers\ContactFormController@store');
+Route::get('home', 'App\Http\Controllers\ContactFormController@create');
+Route::post('home', 'App\Http\Controllers\ContactFormController@store');
 
 //misschien veranderen naar /
 /*
