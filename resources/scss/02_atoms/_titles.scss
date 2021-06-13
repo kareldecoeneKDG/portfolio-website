@@ -49,6 +49,158 @@
 }
 
 
+.about {
+    &__titlesection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $rubik;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+            letter-spacing: $letter-spacing-big;
+        }
+
+        &__dash {
+            display: inline-block;
+            width: $dash-width-mobile;
+            height: $dash-height-mobile;
+            margin: $dash-margin-mobile;
+            background-color: $orange;
+            border-radius: $border-radius;
+        }
+    }
+}
+
+
+.skills {
+    &__titlesection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $rubik;
+            color: $black;
+            padding: $h4-margin-mobile;
+            letter-spacing: $letter-spacing-big;
+        }
+
+        &__dash {
+            display: inline-block;
+            width: $dash-width-mobile;
+            height: $dash-height-mobile;
+            margin: $dash-margin-mobile;
+            background-color: $orange;
+            border-radius: $border-radius;
+        }
+    }
+
+    &__items {
+        &__item {
+            &__h5 {
+                font-size: $h5-font-size-mobile;
+                font-family: $ubuntu;
+                color: $black;
+                padding: $h5-margin-mobile;
+            }
+
+            &__h6 {
+                font-size: $h6-font-size-mobile;
+                font-family: $ubuntu;
+                color: $black;
+                padding: $h6-margin-mobile;
+            }
+        }
+    }
+}
+
+
+.projects {
+    &__titlesection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $rubik;
+            color: $black;
+            padding: $h4-margin-mobile;
+            letter-spacing: $letter-spacing-big;
+        }
+
+        &__dash {
+            display: inline-block;
+            width: $dash-width-mobile;
+            height: $dash-height-mobile;
+            margin: $dash-margin-mobile;
+            background-color: $orange;
+            border-radius: $border-radius;
+        }
+    }
+
+    &__items {
+        &__item {
+            &__h5 {
+                font-size: $h5-font-size-mobile;
+                font-family: $ubuntu;
+                padding: $h5-margin-mobile;
+                color: $black;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+.contact {
+    &__titlesection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $rubik;
+            color: $black;
+            padding: $h4-margin-mobile;
+            letter-spacing: 1px;
+        }
+
+        &__dash {
+            display: inline-block;
+            width: $dash-width-mobile;
+            height: $dash-height-mobile;
+            margin: $dash-margin-mobile;
+            background-color: $orange;
+            border-radius: $border-radius;
+        }
+    }
+}
+
+
+.footer {
+    &__brand {
+        &__h3 {
+            display: inline-block;
+            font-family: $raleway;
+            color: $lightgrey;
+            padding: $h3-margin-mobile;
+            letter-spacing: $letter-spacing-big;
+            padding-bottom: 25px;
+            font-weight: 700;
+            font-size: 25px;
+        }
+    }
+
+    &__linksection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+        }
+    }
+
+    &__contactsection {
+        &__h4 {
+            font-size: $h4-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            padding: $h4-margin-mobile;
+        }
+    }
+}
+
+
 
 
 
@@ -84,6 +236,127 @@
             }
         }
     }
+
+
+    .about {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-tablet;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-tablet;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-bottom: 0;
+                margin-left: $margin-side-big-tablet;
+            }
+        }
+    }
+
+
+    .skills {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-tablet;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-tablet;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-tablet;
+            }
+        }
+
+        &__items {
+            &__item {
+                &__h5 {
+                    font-size: $h5-font-size-desktop;
+                    padding: $h5-margin-desktop;
+                    padding-bottom: 0;
+                }
+
+                &__h6 {
+                    font-size: $h6-font-size-desktop;
+                    padding: $h6-margin-desktop;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+
+    .projects {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-tablet;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-tablet;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-tablet;
+            }
+        }
+
+        &__items {
+            &__item {
+                &__h5 {
+                    font-size: $h5-font-size-desktop;
+                    padding: $h5-margin-desktop;
+                }
+            }
+        }
+    }
+
+
+    .contact {
+        padding-bottom: 100px;
+    
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-tablet;
+                padding: $h4-margin-desktop;
+                padding-left: $margin-side-big-tablet;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-left: $margin-side-big-tablet;
+            }
+        }
+    }
+
+
+    .footer {
+        &__brand {
+            &__h3 {
+                padding: $h3-margin-desktop;
+                font-size: $h4-font-size-mobile;
+                padding-left: 0;
+                padding-bottom: 25px;
+                padding-top: 100px;
+            }
+        }
+
+        &__linksection {
+            &__h4 {
+                padding-bottom: 25px;
+                padding-top: 100px;
+                padding-left: 0;
+            }
+        }
+
+        &__contactsection {
+            &__h4 {
+                padding-top: 100px;
+                padding-left: 0;
+            }
+        }
+    }
 }
 
 
@@ -106,6 +379,58 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+
+    .about {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-smallpc;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-smallpc;
+            }
+        }
+    }
+
+
+    .skills {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-smallpc;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-smallpc;
+            }
+        }
+    }
+
+
+    .projects {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-smallpc;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-smallpc;
+            }
+        }
+    }
+
+
+    .contact {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-smallpc;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-smallpc;
             }
         }
     }
@@ -140,6 +465,63 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+
+    .about {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    .skills {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+            }
+        }
+    }
+
+
+    .projects {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
+            }
+        }
+    }
+
+
+    .contact {
+        &__titlesection {
+            &__h4 {
+                font-size: $h4-font-size-desktop;
+                padding: $h4-margin-desktop;
+            }
+    
+            &__dash {
+                margin: $dash-margin-desktop;
             }
         }
     }
@@ -178,6 +560,58 @@
             }
         }
     }
+
+
+    .about {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-qhd;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+
+
+    .skills {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-qhd;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+
+
+    .projects {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-qhd;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+
+
+    .contact {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-qhd;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
 }
 
 
@@ -208,6 +642,58 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+
+    .about {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-4k;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+
+
+    .skills {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-4k;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+
+
+    .projects {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-4k;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+
+
+    .contact {
+        &__titlesection {
+            &__h4 {
+                padding-left: $margin-side-big-monitor-4k;
+            }
+    
+            &__dash {
+                margin-left: $margin-side-big-monitor-4k;
             }
         }
     }

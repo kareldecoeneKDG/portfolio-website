@@ -1,42 +1,5 @@
 .about {
     background-color: $black;
-
-    &__titlesection {
-        &__h4 {
-            font-size: $h4-font-size-mobile;
-            font-family: $rubik;
-            color: $lightgrey;
-            padding: $h4-margin-mobile;
-            letter-spacing: $letter-spacing-big;
-        }
-
-        &__dash {
-            display: inline-block;
-            width: $dash-width-mobile;
-            height: $dash-height-mobile;
-            margin: $dash-margin-mobile;
-            background-color: $orange;
-            border-radius: $border-radius;
-        }
-    }
-
-    &__flexcontainer {
-        &__p {
-            font-size: $p-font-size-mobile;
-            font-family: $ubuntu;
-            color: $lightgrey;
-            line-height: $line-height-mobile;
-            margin: $big-p-margin-mobile;
-            letter-spacing: $letter-spacing-medium;
-        }
-    
-        &__img {
-            width: 100%;
-            border-radius: 10%;
-            padding: 0px 20px 0px 20px;
-            margin-bottom: 50px;
-        }
-    }
 }
 
 
@@ -46,45 +9,8 @@
 /* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .about {
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-tablet;
-                padding: $h4-margin-desktop;
-                padding-left: $margin-side-big-tablet;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-                margin-bottom: 0;
-                margin-left: $margin-side-big-tablet;
-            }
-        }
-    
         &__flexcontainer {
             padding-bottom: 100px;
-
-            &__p {
-                font-size: $p-font-size-tablet;
-                margin: $big-p-margin-desktop;
-                letter-spacing: $letter-spacing-medium;
-                padding-right: 0;
-                margin-bottom: 0;
-                margin-left: $margin-side-big-tablet;
-                margin-right: $margin-side-big-tablet;
-            }
-        
-            &__img {
-                display: inline-block;
-                width: 75%;
-                height: auto;
-                margin: $about-img-margin-desktop;
-                margin-bottom: 0px;
-                padding-right: 0;
-                margin-right: $margin-side-big-tablet;
-                margin-left: $margin-side-big-tablet;
-                padding-left: 0;
-                border-radius: $border-radius;
-            }
         }
     }
 }
@@ -96,34 +22,10 @@
 /* __SMALL PC / TABLET LANDSCAPE__ */
 @media only screen and (min-width: 1024px) {
     .about {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-smallpc;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-smallpc;
-            }
-        }
-    
         &__flexcontainer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-
-            &__p {
-                padding-right: 100px;
-                margin-right: 0;
-                margin-left: $margin-side-big-smallpc;
-            }
-        
-            &__img {
-                max-width: 350px;
-                max-height: 182px;
-                width: auto;
-                margin-right: $margin-side-big-smallpc;
-                margin-left: 0;
-            }
         }
     }
 }
@@ -134,34 +36,7 @@
 
 /* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
-    .about {
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-desktop;
-                padding: $h4-margin-desktop;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-                margin-bottom: 0;
-            }
-        }
-    
-        &__flexcontainer {
-            &__p {
-                font-size: $p-big-font-size-desktop;
-                line-height: $line-height-desktop;
-                margin: $big-p-margin-desktop;
-                letter-spacing: $letter-spacing-medium;
-                margin-bottom: 0;
-            }
-        
-            &__img {
-                margin: $about-img-margin-desktop;
-                margin-bottom: 0;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -170,27 +45,7 @@
 
 /* __MONITOR QHD__ */
 @media only screen and (min-width: 1921px) {
-    .about {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-qhd;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-qhd;
-            }
-        }
-    
-        &__flexcontainer {
-            &__p {
-                margin-left: $margin-side-big-monitor-qhd;
-            }
-        
-            &__img {
-                margin-right: $margin-side-big-monitor-qhd;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -199,25 +54,5 @@
 
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 3199px) {
-    .about {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-4k;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-4k;
-            }
-        }
-    
-        &__flexcontainer {
-            &__p {
-                margin-left: $margin-side-big-monitor-4k;
-            }
-        
-            &__img {
-                margin-right: $margin-side-big-monitor-4k;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }

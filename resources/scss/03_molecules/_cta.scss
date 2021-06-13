@@ -118,6 +118,64 @@
 }
 
 
+.projects {
+    &__items {
+        &__item {
+            &__button:last-child {
+                margin-left: 8px;
+            }
+
+            &__button {
+                background-color: $orange;
+                padding: $button-padding-mobile;
+                margin: $button-margin-mobile;
+                text-decoration: none;
+                color: $lightgrey;
+                font-weight: 700;
+                font-size: $button-font-size-mobile;
+                font-family: $rubik;
+                border-radius: $border-radius;
+
+                &__extra {
+                    background-color: $orange;
+                    padding: $button-padding-mobile;
+                    margin: $button-margin-mobile;
+                    text-decoration: none;
+                    color: $lightgrey;
+                    font-weight: 700;
+                    font-size: $button-font-size-mobile;
+                    font-family: $rubik;
+                    border-radius: $border-radius;
+                    margin-left: 20px;
+
+                    i {
+                        padding-right: 4px;
+                    }
+                }
+
+                &__extra:hover {
+                    background-color: $lightgrey;
+                    color: $black;
+                    border: 1px solid $black;
+                    transition: 0.5s;
+                }
+
+                i {
+                    padding-right: 4px;
+                }
+            }
+
+            &__button:hover {
+                background-color: $lightgrey;
+                color: $black;
+                border: 1px solid $black;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+
 
 
 
@@ -164,6 +222,25 @@
                                     font-size: $button-font-size-desktop;
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .projects {
+        &__items {
+            &__item {
+                &__button {
+                    margin-left: 30px;
+    
+                    &__extra {
+                        margin-left: 30px;
+    
+                        i {
+                            padding-right: 4px;
                         }
                     }
                 }

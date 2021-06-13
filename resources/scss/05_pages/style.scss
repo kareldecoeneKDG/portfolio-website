@@ -1,18 +1,32 @@
+/* 01_FUNDAMENTS */
 @import '../01_fundaments/colors';
 @import '../01_fundaments/fonts';
 @import '../01_fundaments/general';
 @import '../01_fundaments/spacers';
 
-@import '../02_atoms/titles';
-@import '../02_atoms/images';
 
+/* 02_ATOMS */
+@import '../02_atoms/titles';
+@import '../02_atoms/paragraphs';
+@import '../02_atoms/images';
+@import '../02_atoms/inputs';
+@import '../02_atoms/formfeedback';
+@import '../02_atoms/links';
+
+
+/* 03_MOLECULES */
 @import '../03_molecules/navlinks';
 @import '../03_molecules/burger';
 @import '../03_molecules/cta';
+@import '../03_molecules/tags';
+@import '../03_molecules/icons';
+@import '../03_molecules/form';
 
 
-
-//TO DO
+/* 04_ORGANISMS */
+@import '../04_organisms/top';
+@import '../04_organisms/nav';
+@import '../04_organisms/header';
 @import '../04_organisms/about';
 @import '../04_organisms/skills';
 @import '../04_organisms/projects';
@@ -20,13 +34,6 @@
 @import '../04_organisms/footer';
 
 
-
-
-//DONE
-@import '../04_organisms/top';
-@import '../04_organisms/nav';
-@import '../04_organisms/topheader';
-
-
+/* 04_ORGANISMS > ANIMATIONS */
 @import '../04_organisms/loader';
 @import '../04_organisms/scrollanimation.scss';

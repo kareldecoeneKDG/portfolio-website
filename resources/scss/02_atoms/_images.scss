@@ -20,6 +20,47 @@
 }
 
 
+.about {
+    &__flexcontainer {
+        &__img {
+            width: 100%;
+            border-radius: 10%;
+            padding: 0px 20px 0px 20px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+.projects {
+    &__items {
+        &__item {
+            &__image {
+                text-align: center;
+
+                &__img {
+                    height: 115px;
+                    margin: 40px auto 30px auto;
+                }
+            }
+        }
+    }
+}
+
+
+.contact {
+    &__formsection {
+        &__karel {
+            &__img {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+
 
 
 
@@ -33,6 +74,39 @@
                         margin: 0px auto 5vh auto;
                         width: 250px;
                     }
+                }
+            }
+        }
+    }
+
+
+    .about {
+        &__flexcontainer {
+            &__img {
+                display: inline-block;
+                width: 75%;
+                height: auto;
+                margin: $about-img-margin-desktop;
+                margin-bottom: 0px;
+                padding-right: 0;
+                margin-right: $margin-side-big-tablet;
+                margin-left: $margin-side-big-tablet;
+                padding-left: 0;
+                border-radius: $border-radius;
+            }
+        }
+    }
+
+
+    .contact {
+        &__formsection {
+            &__karel {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                &__img {
+                    width: 400px;
                 }
             }
         }
@@ -57,7 +131,51 @@
                 }
             }
         }
-    }   
+    }
+
+
+    .about {
+        &__flexcontainer {
+            &__img {
+                max-width: 350px;
+                max-height: 182px;
+                width: auto;
+                margin-right: $margin-side-big-smallpc;
+                margin-left: 0;
+            }
+        }
+    }
+
+
+    .projects {
+        &__items {
+            &__item {
+                &__image {
+                    &__img {
+                        opacity: 0.3;
+                    }
+                }
+            }
+
+            &__item:hover {
+                div {
+                    img {
+                        opacity: 1;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .contact {
+        &__formsection {
+            &__karel {
+                margin-left: $margin-side-big-smallpc;
+            }
+        }
+    }
 }
 
 
@@ -73,6 +191,29 @@
                     &__karel {
                         margin-right: $margin-side-big-desktop;
                     }
+                }
+            }
+        }
+    }
+
+
+    .about {
+        &__flexcontainer {
+            &__img {
+                margin: $about-img-margin-desktop;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    .contact {
+        &__formsection {
+            &__karel {
+                margin-left: 278px;
+
+                &__img {
+                    width: 400px;
                 }
             }
         }
@@ -97,6 +238,24 @@
             }
         }
     }
+
+
+    .about {  
+        &__flexcontainer {
+            &__img {
+                margin-right: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+
+
+    .contact {
+        &__formsection {
+            &__karel {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
 }
 
 
@@ -113,6 +272,24 @@
                         margin-right: $margin-side-big-monitor-4k;
                     }
                 }
+            }
+        }
+    }
+
+
+    .about {
+        &__flexcontainer {
+            &__img {
+                margin-right: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+
+
+    .contact {
+        &__formsection {
+            &__karel {
+                margin-left: $margin-side-big-monitor-4k;
             }
         }
     }

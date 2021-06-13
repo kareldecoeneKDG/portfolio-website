@@ -1,0 +1,22 @@
+.contact {
+    &__formsection {
+        &__form {
+            &__succesmessage {
+                font-family: $ubuntu;
+                font-size: $p-font-size-mobile;
+                color: $white;
+                font-weight: 700;
+                background-color: green;
+                padding: 12px 20px;
+                border-radius: $border-radius;
+            }
+
+            &__errormessage {
+                font-family: $ubuntu;
+                font-size: $p-font-size-mobile;
+                font-weight: 700;
+                color: red;
+            }
+        }
+    }
+}

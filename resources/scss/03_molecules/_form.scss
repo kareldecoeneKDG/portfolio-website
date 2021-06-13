@@ -1,0 +1,96 @@
+.contact {
+    &__formsection {
+        &__form {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .contact {
+        &__formsection {
+            &__form {
+                margin-left: 0;
+                padding-right: 0;
+                padding-right: 0;
+                width: 100%;
+                padding-left: $margin-side-big-tablet;
+                padding-right: $margin-side-big-tablet;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .contact {
+        &__formsection {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            &__form {
+                margin-right: $margin-side-big-smallpc;
+                padding-right: 0;
+                margin-left: 80px;
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .contact {
+        &__formsection {
+            &__form {
+                padding-right: 278px;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) {
+    .contact {
+        &__formsection {
+            &__form {
+                padding-right: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 3199px) {
+    .contact {
+        &__formsection {
+            &__form {
+                padding-right: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+}

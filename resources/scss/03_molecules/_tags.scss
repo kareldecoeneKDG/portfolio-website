@@ -1,0 +1,67 @@
+.skills {
+    &__items {
+        &__item {
+            &__tags {
+                display: block;
+                margin-left: $margin-side;
+                margin-right: $margin-side;
+                line-height: 30px;
+                
+                &__tag {
+                    font-size: $tag-font-size-mobile;
+                    font-family: $ubuntu;
+                    padding: $tag-padding-mobile;
+                    background-color: $orange;
+                    font-weight: 700;
+                    color: $lightgrey;
+                    border-radius: 5px;
+                }
+            }
+
+            &__tags2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .skills {
+        &__items {
+            &__item {
+                &__tags {
+                    margin: $tag-margin-desktop;
+                    line-height: 32px;
+                    margin-bottom: 0;
+                    
+                    &__tag {
+                        font-size: $tag-font-size-desktop;
+                        margin-top: 85px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .skills {
+        &__items {
+            &__item {
+                &__tags2 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

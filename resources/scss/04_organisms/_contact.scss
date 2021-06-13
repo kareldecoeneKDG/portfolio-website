@@ -1,110 +1,6 @@
 .contact {
     padding-bottom: 50px;
     background-color: $white;
-
-    &__titlesection {
-        &__h4 {
-            font-size: $h4-font-size-mobile;
-            font-family: $rubik;
-            color: $black;
-            padding: $h4-margin-mobile;
-            letter-spacing: 1px;
-        }
-
-        &__dash {
-            display: inline-block;
-            width: $dash-width-mobile;
-            height: $dash-height-mobile;
-            margin: $dash-margin-mobile;
-            background-color: $orange;
-            border-radius: $border-radius;
-        }
-    }
-
-    &__formsection {
-        &__form {
-            margin-left: 20px;
-            margin-right: 20px;
-
-            &__input {
-                font-size: $input-font-size-mobile;
-                font-family: $ubuntu;
-                font-weight: 500;
-                display: block;
-                border: 1px solid $black;
-                border-radius:$border-radius;
-                color: $black;
-                margin: $input-margin-mobile;
-                padding: $input-padding-mobile;
-                width: 100%;
-            }
-
-            &__input:focus {
-                color: $black;
-            }
-
-            &__textarea {
-                font-size: $input-font-size-mobile;
-                font-family: $ubuntu;
-                font-weight: 500;
-                display: block;
-                border: 1px solid $black;
-                border-radius:$border-radius;
-                color: $black;
-                margin: $input-margin-mobile;
-                padding: $input-padding-mobile;
-                width: 100%;
-                height: 300px;
-                resize: none;
-            }
-
-            &__submit {
-                background-color: $orange;
-                padding: $button-padding-mobile;
-                text-decoration: none;
-                color: $lightgrey;
-                font-weight: 700;
-                font-size: $button-font-size-mobile;
-                font-family: $rubik;
-                border-radius: $border-radius;
-                margin-top: 10px;
-                cursor: pointer;
-                border: 1px solid $orange;
-            }
-
-            &__submit:hover {
-                background-color: $lightgrey;
-                color: $black;
-                border: 1px solid $black;
-                transition: 0.5s;
-            }
-
-            &__succesmessage {
-                font-family: $ubuntu;
-                font-size: $p-font-size-mobile;
-                color: $white;
-                font-weight: 700;
-                background-color: green;
-                padding: 12px 20px;
-                border-radius: $border-radius;
-            }
-
-            &__errormessage {
-                font-family: $ubuntu;
-                font-size: $p-font-size-mobile;
-                font-weight: 700;
-                color: red;
-            }
-        }
-
-        &__karel {
-            &__img {
-                width: 100%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
 }
 
 
@@ -115,40 +11,6 @@
 @media only screen and (min-width: 768px) {
     .contact {
         padding-bottom: 100px;
-    
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-tablet;
-                padding: $h4-margin-desktop;
-                padding-left: $margin-side-big-tablet;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-                margin-left: $margin-side-big-tablet;
-            }
-        }
-    
-        &__formsection {
-            &__form {
-                margin-left: 0;
-                padding-right: 0;
-                padding-right: 0;
-                width: 100%;
-                padding-left: $margin-side-big-tablet;
-                padding-right: $margin-side-big-tablet;
-            }
-            
-            &__karel {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-
-                &__img {
-                    width: 400px;
-                }
-            }
-        }
     }
 }
 
@@ -158,34 +20,7 @@
 
 /* __SMALL PC / TABLET LANDSCAPE__ */
 @media only screen and (min-width: 1024px) {
-    .contact {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-smallpc;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-smallpc;
-            }
-        }
-    
-        &__formsection {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-
-            &__form {
-                margin-right: $margin-side-big-smallpc;
-                padding-right: 0;
-                margin-left: 80px;
-                padding-left: 0;
-            }
-            
-            &__karel {
-                margin-left: $margin-side-big-smallpc;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -194,33 +29,7 @@
 
 /* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
-    .contact {
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-desktop;
-                padding: $h4-margin-desktop;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-            }
-        }
-    
-        &__formsection {
-            &__form {
-                padding-right: 278px;
-                margin-right: 0;
-            }
-            
-            &__karel {
-                margin-left: 278px;
-
-                &__img {
-                    width: 400px;
-                }
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -229,27 +38,7 @@
 
 /* __MONITOR QHD__ */
 @media only screen and (min-width: 1921px) {
-    .contact {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-qhd;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-qhd;
-            }
-        }
-    
-        &__formsection {
-            &__form {
-                padding-right: $margin-side-big-monitor-qhd;
-            }
-            
-            &__karel {
-                margin-left: $margin-side-big-monitor-qhd;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }
 
 
@@ -258,25 +47,5 @@
 
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 3199px) {
-    .contact {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-4k;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-4k;
-            }
-        }
-    
-        &__formsection {
-            &__form {
-                padding-right: $margin-side-big-monitor-4k;
-            }
-            
-            &__karel {
-                margin-left: $margin-side-big-monitor-4k;
-            }
-        }
-    }
+    //Nothing to add. Just for structure.
 }

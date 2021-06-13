@@ -161,6 +161,7 @@
                                 <span class="skills__items__item__tags__tag">SASS</span>
                                 <span class="skills__items__item__tags__tag">C#</span>
                                 <span class="skills__items__item__tags__tag">WORDPRESS</span>
+                                <span class="skills__items__item__tags__tag">GIT</span>
                             </div>
 
                             <p class="skills__items__item__p">
@@ -179,7 +180,7 @@
 
                         <div class="skills__items__item__right">
                             <div class="skills__items__item__right__container">
-                                <img src="{{ url('img/webdevelopment_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ url('img/development.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -200,14 +201,14 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                Every well-performing website starts with an attractive and <strong>user-friendly atomic design</strong>. In my designs the focus lies on <strong>#UX & #UI</strong>.<br><br>
+                                Every well-performing website starts with an attractive and <strong>user-friendly atomic design</strong>. In my designs the focus lies on user experience <strong>#UX</strong> & a goodlooking interface <strong>#UI</strong>.<br><br>
                                 This allows you to create #interaction with your #visitors and generate more <strong>(online) sales</strong> as a company.
                             </p>
                         </div>
 
                         <div class="skills__items__item__right__3">
-                            <div class="skills__items__item__right__2__container">
-                                <img src="{{ url('img/webdesign_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                            <div class="skills__items__item__right__3__container">
+                                <img src="{{ url('img/design.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -231,7 +232,7 @@
 
                         <div class="skills__items__item__right__2">
                             <div class="skills__items__item__right__2__container">
-                                <img src="{{ url('img/branding_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ url('img/branding.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -243,8 +244,7 @@
                             <h5 class="skills__items__item__h5">content</h5>
 
                             <div class="skills__items__item__tags">
-                                <span class="skills__items__item__tags__tag">PHOTO</span>
-                                <span class="skills__items__item__tags__tag">VIDEO</span>
+                                <span class="skills__items__item__tags__tag">PHOTOS</span>
                                 <span class="skills__items__item__tags__tag">SOCIAL MEDIA</span>
                             </div>
 
@@ -256,7 +256,7 @@
 
                         <div class="skills__items__item__right__2">
                             <div class="skills__items__item__right__2__container">
-                                <img src="{{ url('img/content_icon.png') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ url('img/content.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -351,7 +351,7 @@
 
                             <p class="projects__items__item__p">
                                 In my second year of college we worked on a fictional company called <strong>Esport+</strong>. This was a streaming platform like #Twitch but better.<br><br>
-                                This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things.
+                                This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things. The website was build with the help of others and we've used a bootstrap template.
                             </p>
                         </div>
 

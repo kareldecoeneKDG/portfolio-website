@@ -1,0 +1,181 @@
+.about {
+    &__flexcontainer {
+        &__p {
+            font-size: $p-font-size-mobile;
+            font-family: $ubuntu;
+            color: $lightgrey;
+            line-height: $line-height-mobile;
+            margin: $big-p-margin-mobile;
+            letter-spacing: $letter-spacing-medium;
+        }
+    }
+}
+
+
+.skills {
+    &__items {
+        &__item {
+            &__p {
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                color: $black;
+                padding: $small-p-margin-mobile;
+                line-height: $line-height-mobile;
+                padding-bottom: 0;
+                letter-spacing: $letter-spacing-medium;
+                
+                &__extra {
+                    font-size: $p-font-size-mobile;
+                    font-family: $ubuntu;
+                    color: $black;
+                    padding: $small-p-margin-mobile;
+                    line-height: $line-height-mobile;
+                    padding-bottom: 0;
+                    margin-bottom: 20px;
+                    letter-spacing: $letter-spacing-medium;
+                }
+            }
+        }
+    }
+}
+
+
+.projects {
+    &__items {
+        &__item {
+            &__p {
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                padding: $small-p-margin-mobile;
+                color: $black;
+                font-weight: 400;
+                line-height: $line-height-mobile;
+                letter-spacing: $letter-spacing-medium;
+                margin-bottom: 15px;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .about {
+        &__flexcontainer {
+            &__p {
+                font-size: $p-font-size-tablet;
+                margin: $big-p-margin-desktop;
+                letter-spacing: $letter-spacing-medium;
+                padding-right: 0;
+                margin-bottom: 0;
+                margin-left: $margin-side-big-tablet;
+                margin-right: $margin-side-big-tablet;
+            }
+        }
+    }
+
+
+    .skills {
+        &__items {
+            &__item {
+                &__p {
+                    font-size: $p-font-size-tablet;
+                    padding: $small-p-margin-desktop;
+                    padding-top: 20px;
+                    
+                    &__extra {
+                        font-size: $p-font-size-tablet;
+                        padding: $small-p-margin-desktop;
+                        padding-bottom: 0; 
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .projects {
+        &__items {
+            &__item {
+                &__p {
+                    padding: $small-p-margin-desktop;
+                    line-height: $line-height-desktop;
+                    letter-spacing: $letter-spacing-medium;
+                    margin-bottom: 0px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __SMALL PC / TABLET LANDSCAPE__ */
+@media only screen and (min-width: 1024px) {
+    .about {
+        &__flexcontainer {
+            &__p {
+                padding-right: 100px;
+                margin-right: 0;
+                margin-left: $margin-side-big-smallpc;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __DESKTOP__ */
+@media only screen and (min-width: 1281px) {
+    .about {
+        &__flexcontainer {
+            &__p {
+                font-size: $p-big-font-size-desktop;
+                line-height: $line-height-desktop;
+                margin: $big-p-margin-desktop;
+                letter-spacing: $letter-spacing-medium;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR QHD__ */
+@media only screen and (min-width: 1921px) {
+    .about {  
+        &__flexcontainer {
+            &__p {
+                margin-left: $margin-side-big-monitor-qhd;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __MONITOR 4K__ */
+@media only screen and (min-width: 3199px) {
+    .about {
+        &__flexcontainer {
+            &__p {
+                margin-left: $margin-side-big-monitor-4k;
+            }
+        }
+    }
+}

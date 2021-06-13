@@ -1,0 +1,72 @@
+.footer {
+    &__linksection {
+        &__links {
+            &__link {
+                text-decoration: none;
+                color: $lightgrey;
+                padding: 8px 20px 0px 20px;
+                display: block;
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                font-weight: 500;
+            }
+
+            &__link:hover {
+                color: $grey;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    &__contactsection {
+        &__links {
+            &__link {
+                text-decoration: underline;
+                color: $lightgrey;
+                padding: 8px 20px 0px 20px;
+                display: block;
+                font-size: $p-font-size-mobile;
+                font-family: $ubuntu;
+                font-weight: 500;
+            }
+
+            &__link:hover {
+                color: $grey;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* __TABLET PORTRAIT__ */
+@media only screen and (min-width: 768px) {
+    .footer {
+        &__linksection {
+            &__links {
+                &__link {
+                    padding-left: 0;
+                }
+
+                &__link:first-child {
+                    padding-top: 0px;
+                }
+            }
+        }
+
+        &__contactsection {
+            &__links {
+                &__link {
+                    padding-left: 0;
+                }
+
+                &__link:first-child {
+                    padding-top: 15px;
+                }
+            }
+        }
+    }
+}

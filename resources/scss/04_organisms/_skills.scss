@@ -1,25 +1,6 @@
 .skills {
     background-color: $white;
 
-    &__titlesection {
-        &__h4 {
-            font-size: $h4-font-size-mobile;
-            font-family: $rubik;
-            color: $black;
-            padding: $h4-margin-mobile;
-            letter-spacing: $letter-spacing-big;
-        }
-
-        &__dash {
-            display: inline-block;
-            width: $dash-width-mobile;
-            height: $dash-height-mobile;
-            margin: $dash-margin-mobile;
-            background-color: $orange;
-            border-radius: $border-radius;
-        }
-    }
-
     &__items {
         padding-bottom: 50px;
 
@@ -30,101 +11,6 @@
             border-radius: $border-radius;
             margin-top: 30px;
             padding-bottom: 70px;
-
-            &__h5 {
-                font-size: $h5-font-size-mobile;
-                font-family: $ubuntu;
-                color: $black;
-                padding: $h5-margin-mobile;
-            }
-
-            &__tags {
-                display: block;
-                margin-left: $margin-side;
-                margin-right: $margin-side;
-                line-height: 30px;
-                
-                &__tag {
-                    font-size: $tag-font-size-mobile;
-                    font-family: $ubuntu;
-                    padding: $tag-padding-mobile;
-                    background-color: $orange;
-                    font-weight: 700;
-                    color: $lightgrey;
-                    border-radius: 5px;
-                }
-            }
-
-            &__tags2 {
-                margin-bottom: 20px;
-            }
-
-            &__p {
-                font-size: $p-font-size-mobile;
-                font-family: $ubuntu;
-                color: $black;
-                padding: $small-p-margin-mobile;
-                line-height: $line-height-mobile;
-                padding-bottom: 0;
-                letter-spacing: $letter-spacing-medium;
-                
-                &__extra {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    padding: $small-p-margin-mobile;
-                    line-height: $line-height-mobile;
-                    padding-bottom: 0;
-                    margin-bottom: 20px;
-                    letter-spacing: $letter-spacing-medium;
-                }
-            }
-
-            &__h6 {
-                font-size: $h6-font-size-mobile;
-                font-family: $ubuntu;
-                color: $black;
-                padding: $h6-margin-mobile;
-            }
-
-            &__right {
-                display: block;
-                width: 50px;
-                height: 50px;
-                background-color: $orange;
-                border-radius: 50%;
-                text-align: center;
-                padding-top: 18px;
-                float: right;
-                margin-right: 20px;
-                margin-bottom: 20px;
-
-                &__2 {
-                    display: block;
-                    width: 50px;
-                    height: 50px;
-                    background-color: $orange;
-                    border-radius: 50%;
-                    text-align: center;
-                    padding-top: 14px;
-                    float: right;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-
-                &__3 {
-                    display: block;
-                    width: 50px;
-                    height: 50px;
-                    background-color: $orange;
-                    border-radius: 50%;
-                    text-align: center;
-                    padding-top: 16px;
-                    float: right;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                }
-            }
         }
     }
 }
@@ -136,19 +22,6 @@
 /* __TABLET PORTRAIT__ */
 @media only screen and (min-width: 768px) {
     .skills {
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-tablet;
-                padding: $h4-margin-desktop;
-                padding-left: $margin-side-big-tablet;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-                margin-left: $margin-side-big-tablet;
-            }
-        }
-    
         &__items {
             padding: 0px 0px 100px 0px;
     
@@ -156,97 +29,6 @@
                 margin-left: $margin-side-big-tablet;
                 margin-right: $margin-side-big-tablet;
                 margin-top: 30px;
-    
-                &__h5 {
-                    font-size: $h5-font-size-desktop;
-                    padding: $h5-margin-desktop;
-                    padding-bottom: 0;
-                }
-    
-                &__tags {
-                    margin: $tag-margin-desktop;
-                    line-height: 32px;
-                    margin-bottom: 0;
-                    
-                    &__tag {
-                        font-size: $tag-font-size-desktop;
-                        margin-top: 85px;
-                    }
-                }
-    
-                &__p {
-                    font-size: $p-font-size-tablet;
-                    padding: $small-p-margin-desktop;
-                    padding-top: 20px;
-                    
-                    &__extra {
-                        font-size: $p-font-size-tablet;
-                        padding: $small-p-margin-desktop;
-                        padding-bottom: 0; 
-                        padding-top: 20px;
-                    }
-                }
-    
-                &__h6 {
-                    font-size: $h6-font-size-desktop;
-                    padding: $h6-margin-desktop;
-                    padding-top: 0;
-                    padding-bottom: 0;
-                }
-    
-                &__right {
-                    display: block;
-                    width: 100px;
-                    height: 100%;
-                    float: right;
-                    margin-right: 20px;
-                    margin-bottom: 20px;
-                    background-color: $lightgrey;
-                    position: relative;
-
-                    &__container {
-                        background-color: $orange;
-                        height: 50px;
-                        border-radius: 50%;
-                        text-align: center;
-                        padding-top: 18px;
-                        width: 50px;
-                        bottom: 0;
-                        right: 0;
-                        vertical-align: text-bottom;
-                        position: absolute;
-                    }
-
-                    &__2 {
-                        width: 100px;
-                        height: 100%;
-                        float: right;
-                        margin-right: 20px;
-                        margin-bottom: 20px;
-                        background-color: $lightgrey;
-                        position: relative;
-
-                        &__container {
-                            background-color: $orange;
-                            height: 50px;
-                            border-radius: 50%;
-                            text-align: center;
-                            padding-top: 15px;
-                            width: 50px;
-                            bottom: 0;
-                            right: 0;
-                            vertical-align: text-bottom;
-                            position: absolute;
-                        }
-                    }
-
-                    &__3 {
-                        width: 100px;
-                        height: 100%;
-                        background-color: $lightgrey;
-                        position: relative;
-                    }
-                }
             }
         }
     }
@@ -259,16 +41,6 @@
 /* __SMALL PC / TABLET LANDSCAPE__ */
 @media only screen and (min-width: 1024px) {
     .skills {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-smallpc;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-smallpc;
-            }
-        }
-    
         &__items {
             display: grid;
             grid-template-columns: 50% 50%;
@@ -299,10 +71,6 @@
                 flex-direction: row;
                 padding-bottom: 20px;
                 margin: 0;
-
-                &__tags2 {
-                    margin-bottom: 20px;
-                }
             }
         }
     }
@@ -315,17 +83,6 @@
 /* __DESKTOP__ */
 @media only screen and (min-width: 1281px) {
     .skills {
-        &__titlesection {
-            &__h4 {
-                font-size: $h4-font-size-desktop;
-                padding: $h4-margin-desktop;
-            }
-    
-            &__dash {
-                margin: $dash-margin-desktop;
-            }
-        }
-    
         &__items {
             padding: 0px 278px 100px 278px;
         }
@@ -339,16 +96,6 @@
 /* __MONITOR QHD__ */
 @media only screen and (min-width: 1921px) {
     .skills {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-qhd;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-qhd;
-            }
-        }
-    
         &__items {
             padding: 0px 598px 100px 598px;
     
@@ -363,16 +110,6 @@
 /* __MONITOR 4K__ */
 @media only screen and (min-width: 3199px) {
     .skills {
-        &__titlesection {
-            &__h4 {
-                padding-left: $margin-side-big-monitor-4k;
-            }
-    
-            &__dash {
-                margin-left: $margin-side-big-monitor-4k;
-            }
-        }
-    
         &__items {
             padding: 0px 1238px 100px 1238px;
         }
