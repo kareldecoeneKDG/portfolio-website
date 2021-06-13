@@ -380,6 +380,12 @@
                             </div>
                         @endif
 
+                        <!-- @if(Session::has('flashMessage'))
+                            <div class="alert alert-danger">
+                                {{ Session::get('flashMessage') }}
+                            </div>
+                        @endif -->
+
                         <div class="form-group">
                             <div class="contact__formsection__form__errormessage">{{ $errors->first('name') }}</div>
                             <input type="text" name="name" value="{{ old('name') }}" placeholder="name" class="contact__formsection__form__input form-control">
