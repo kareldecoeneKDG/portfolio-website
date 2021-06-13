@@ -395,7 +395,7 @@
                             <textarea name="message" placeholder="message" class="contact__formsection__form__textarea">{{ old('message') }}</textarea>
                         </div>
 
-                        <div class="g-recaptcha contact__formsection__form__checkbox form-control" data-sitekey="6LfO8SMbAAAAAD1Gow31-m_lzq84T1K9R3-Fi-Kd"></div>
+                        <!-- <div class="g-recaptcha contact__formsection__form__checkbox form-control" data-sitekey="6LfO8SMbAAAAAD1Gow31-m_lzq84T1K9R3-Fi-Kd"></div> -->
 
                         @csrf
 
