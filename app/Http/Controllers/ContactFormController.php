@@ -21,7 +21,7 @@ class ContactFormController extends Controller
             'message' => 'required',
         ]);
         
-        Mail::to('test@test.com')->send(new ContactFormMail($data));
+        Mail::to('karel.decoene@hotmail.com')->send(new ContactFormMail($data));
 
         return redirect('home')->with('message', 'Thanks for your message. You\'ll hear from me soon.');
     }
