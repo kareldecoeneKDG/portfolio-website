@@ -637,6 +637,8 @@ body {
   .about__flexcontainer__img {
     margin: 50px 278px 100px 0px;
     margin-bottom: 0;
+    max-width: 400px;
+    max-height: 208px;
   }
 
   .contact__formsection__karel {
@@ -655,6 +657,8 @@ body {
 
   .about__flexcontainer__img {
     margin-right: 598px;
+    max-width: 500px;
+    max-height: 260px;
   }
 
   .contact__formsection__karel {
