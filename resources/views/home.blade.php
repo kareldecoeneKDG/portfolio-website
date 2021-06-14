@@ -374,6 +374,12 @@
 
                 <div class="contact__formsection">
                     <form action="/home/#contact" method="POST" class="contact__formsection__form">
+                        <strong>
+                            @foreach ($errors->all() as $error)
+                            {{ $error }}<br />
+                            @endforeach
+                        </strong>
+
                         @if(session()->has('message'))
                             <div class="contact__formsection__form__succesmessage">
                                 <strong>{{ session()->get('message') }}</strong>
