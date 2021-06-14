@@ -381,6 +381,8 @@
                 </div>
 
                 <div class="contact__formsection">
+
+                    <!--
                     <form action="/home/#contact" method="POST" class="contact__formsection__form">
                         <strong>
                             @foreach ($errors->all() as $error)
@@ -394,11 +396,11 @@
                             </div>
                         @endif
 
-                        <!-- @if(Session::has('flashMessage'))
+                        @if(Session::has('flashMessage'))
                             <div class="alert alert-danger">
                                 {{ Session::get('flashMessage') }}
                             </div>
-                        @endif -->
+                        @endif
 
                         <div class="form-group">
                             <div class="contact__formsection__form__errormessage">{{ $errors->first('name') }}</div>
@@ -421,6 +423,20 @@
 
                         <input type="submit" value="send" class="contact__formsection__form__submit">
                     </form>
+                    -->
+                    <div class="contact__formsection__flexcontainer">
+                        <div class="contact__formsection__flexcontainer__text">
+                            I’m currently not registered as a company but I am always looking for new challenges. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at the same time a cheap solution
+                            for your company.<br><br>
+
+                            Furthermore I’m still looking for a company where I can do an <strong>internship</strong> next year. Are you a fan of my work and do you see opportunities? Feel free to leave me a message.
+                        </div>
+
+                        <div class="contact__formsection__flexcontainer__contactlinks">
+                            <a href="tel:+32476280902" class="contact__formsection__flexcontainer__contactlinks__link">0476 28 09 02</a>
+                            <a href="mailto:karel.decoene@hotmail.com" class="contact__formsection__flexcontainer__contactlinks__link">karel.decoene@hotmail.com</a>
+                        </div>
+                    </div>
 
                     <div class="contact__formsection__karel">
                         <img src="{{ url('img/karel_2.webp') }}" alt="img placeholder" class="contact__formsection__karel__img">

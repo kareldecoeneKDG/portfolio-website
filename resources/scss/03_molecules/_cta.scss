@@ -135,6 +135,7 @@
                 font-size: $button-font-size-mobile;
                 font-family: $rubik;
                 border-radius: $border-radius;
+                border: 1px solid $orange;
 
                 &__extra {
                     background-color: $orange;
@@ -147,6 +148,7 @@
                     font-family: $rubik;
                     border-radius: $border-radius;
                     margin-left: 20px;
+                    border: 1px solid $orange;
 
                     i {
                         padding-right: 4px;
