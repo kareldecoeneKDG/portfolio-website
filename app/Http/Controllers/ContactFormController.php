@@ -24,7 +24,5 @@ class ContactFormController extends Controller
         Mail::to('karel.decoene@hotmail.com')->send(new ContactFormMail($data));
 
         return redirect('home')->with('message', 'Thanks for your message. You\'ll hear from me soon.');
-        
-        //return redirect()->route('home')->with('flashMessage', 'test');
     }
 }
