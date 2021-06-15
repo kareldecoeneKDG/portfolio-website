@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!-- Change to welcome page -->
+        <meta http-equiv="refresh" content="3; url = /home"/>
+
         <!-- General -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
