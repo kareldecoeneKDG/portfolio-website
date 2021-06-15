@@ -21,7 +21,7 @@
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
         <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
-        <meta property="og:image" content="{{ url('img/facebookSVG.svg') }}">
+        <meta property="og:image" content="{{ url('img/facebook.png') }}">
 
         <title>KAREL - NxT Web Developer</title>
 
