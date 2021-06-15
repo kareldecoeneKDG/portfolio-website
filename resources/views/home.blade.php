@@ -6,6 +6,7 @@
         <!-- General -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -13,6 +14,13 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
 
+        <!-- Google Description -->
+        <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
+
+        <!-- Facebook Preview Tags -->
+        <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
+        <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
+        <meta property="og:image" content="{{ url('img/facebook.png') }}">
 
         <title>KAREL - NxT Web Developer</title>
 
