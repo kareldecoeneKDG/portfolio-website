@@ -434,7 +434,7 @@
                     -->
                     <div class="contact__formsection__flexcontainer">
                         <div class="contact__formsection__flexcontainer__text">
-                            I’m currently not registered as a company but I am always looking for new challenges. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at the same time a cheap solution
+                            I’m currently not registered as a company but I'm always looking for new challenges. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at the same time a cheap solution
                             for your company.<br><br>
 
                             Furthermore I’m still looking for a company where I can do an <strong>internship</strong> next year. Are you a fan of my work and do you see opportunities? Feel free to leave me a message.
