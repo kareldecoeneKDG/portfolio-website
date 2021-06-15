@@ -161,29 +161,16 @@
         &__formsection {
             &__flexcontainer{
                 &__text {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    line-height: $line-height-mobile;
+                    font-size: $p-font-size-tablet;
+                    line-height: $line-height-desktop;
                     margin: 20px 100px 30px 100px;
-                    letter-spacing: $letter-spacing-medium;
                 }
     
                 &__contactlinks {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-    
                     &__link {
-                        font-size: $p-font-size-mobile;
-                        color: $black;
-                        font-family: $rubik;
+                        font-size: $p-big-font-size-desktop;
                         margin: 0px 100px 10px 100px;
-                        padding: 10px 12px 10px 12px;
-                        font-weight: 700;
-                        text-decoration: underline;
-                        padding-left: 0;
-                        padding-right: 0;
+                        padding: 10px 0px 10px 12px;
                     }
     
                     &__link:first-child {
@@ -217,34 +204,16 @@
         &__formsection {
             &__flexcontainer{
                 &__text {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    line-height: $line-height-mobile;
+                    font-size: $p-big-font-size-desktop;
+                    line-height: $line-height-desktop;
                     margin: 20px 150px 30px 100px;
-                    letter-spacing: $letter-spacing-medium;
                 }
     
                 &__contactlinks {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-    
                     &__link {
-                        font-size: $p-font-size-mobile;
-                        color: $black;
-                        font-family: $rubik;
+                        font-size: $p-big-font-size-desktop;
                         margin: 0px 150px 10px 100px;
-                        padding: 10px 12px 10px 12px;
-                        font-weight: 700;
-                        text-decoration: underline;
-                        padding-left: 0;
-                        padding-right: 0;
-                    }
-    
-                    &__link:first-child {
-                        margin-bottom: 0;
-                        padding-bottom: 0;
+                        padding: 10px 0px 10px 0px;
                     }
                 }
             }
@@ -275,34 +244,12 @@
         &__formsection {
             &__flexcontainer{
                 &__text {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    line-height: $line-height-mobile;
                     margin: 100px 278px 30px 100px;
-                    letter-spacing: $letter-spacing-medium;
                 }
     
                 &__contactlinks {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-    
                     &__link {
-                        font-size: $p-font-size-mobile;
-                        color: $black;
-                        font-family: $rubik;
                         margin: 0px 278px 10px 100px;
-                        padding: 10px 12px 10px 12px;
-                        font-weight: 700;
-                        text-decoration: underline;
-                        padding-left: 0;
-                        padding-right: 0;
-                    }
-    
-                    &__link:first-child {
-                        margin-bottom: 0;
-                        padding-bottom: 0;
                     }
                 }
             }
@@ -329,34 +276,12 @@
         &__formsection {
             &__flexcontainer{
                 &__text {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    line-height: $line-height-mobile;
                     margin: 100px 598px 30px 100px;
-                    letter-spacing: $letter-spacing-medium;
                 }
     
                 &__contactlinks {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-    
                     &__link {
-                        font-size: $p-font-size-mobile;
-                        color: $black;
-                        font-family: $rubik;
                         margin: 0px 598px 10px 100px;
-                        padding: 10px 12px 10px 12px;
-                        font-weight: 700;
-                        text-decoration: underline;
-                        padding-left: 0;
-                        padding-right: 0;
-                    }
-    
-                    &__link:first-child {
-                        margin-bottom: 0;
-                        padding-bottom: 0;
                     }
                 }
             }
@@ -383,34 +308,12 @@
         &__formsection {
             &__flexcontainer{
                 &__text {
-                    font-size: $p-font-size-mobile;
-                    font-family: $ubuntu;
-                    color: $black;
-                    line-height: $line-height-mobile;
                     margin: 100px 1238px 30px 100px;
-                    letter-spacing: $letter-spacing-medium;
                 }
     
                 &__contactlinks {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-    
                     &__link {
-                        font-size: $p-font-size-mobile;
-                        color: $black;
-                        font-family: $rubik;
                         margin: 0px 1238px 10px 100px;
-                        padding: 10px 12px 10px 12px;
-                        font-weight: 700;
-                        text-decoration: underline;
-                        padding-left: 0;
-                        padding-right: 0;
-                    }
-    
-                    &__link:first-child {
-                        margin-bottom: 0;
-                        padding-bottom: 0;
                     }
                 }
             }

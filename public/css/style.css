@@ -542,27 +542,13 @@ body {
 
   .contact__formsection__flexcontainer__text {
     font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    color: #353535;
-    line-height: 24px;
+    line-height: 27px;
     margin: 20px 100px 30px 100px;
-    letter-spacing: 0.5px;
-  }
-  .contact__formsection__flexcontainer__contactlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .contact__formsection__flexcontainer__contactlinks__link {
-    font-size: 16px;
-    color: #353535;
-    font-family: "Rubik", sans-serif;
+    font-size: 18px;
     margin: 0px 100px 10px 100px;
-    padding: 10px 12px 10px 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0px 10px 12px;
   }
   .contact__formsection__flexcontainer__contactlinks__link:first-child {
     margin-bottom: 0;
@@ -578,32 +564,14 @@ body {
   }
 
   .contact__formsection__flexcontainer__text {
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    color: #353535;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 27px;
     margin: 20px 150px 30px 100px;
-    letter-spacing: 0.5px;
-  }
-  .contact__formsection__flexcontainer__contactlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .contact__formsection__flexcontainer__contactlinks__link {
-    font-size: 16px;
-    color: #353535;
-    font-family: "Rubik", sans-serif;
+    font-size: 18px;
     margin: 0px 150px 10px 100px;
-    padding: 10px 12px 10px 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .contact__formsection__flexcontainer__contactlinks__link:first-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 10px 0px 10px 0px;
   }
 }
 /* __DESKTOP__ */
@@ -617,32 +585,10 @@ body {
   }
 
   .contact__formsection__flexcontainer__text {
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    color: #353535;
-    line-height: 24px;
     margin: 100px 278px 30px 100px;
-    letter-spacing: 0.5px;
-  }
-  .contact__formsection__flexcontainer__contactlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .contact__formsection__flexcontainer__contactlinks__link {
-    font-size: 16px;
-    color: #353535;
-    font-family: "Rubik", sans-serif;
     margin: 0px 278px 10px 100px;
-    padding: 10px 12px 10px 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .contact__formsection__flexcontainer__contactlinks__link:first-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 }
 /* __MONITOR QHD__ */
@@ -652,32 +598,10 @@ body {
   }
 
   .contact__formsection__flexcontainer__text {
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    color: #353535;
-    line-height: 24px;
     margin: 100px 598px 30px 100px;
-    letter-spacing: 0.5px;
-  }
-  .contact__formsection__flexcontainer__contactlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .contact__formsection__flexcontainer__contactlinks__link {
-    font-size: 16px;
-    color: #353535;
-    font-family: "Rubik", sans-serif;
     margin: 0px 598px 10px 100px;
-    padding: 10px 12px 10px 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .contact__formsection__flexcontainer__contactlinks__link:first-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 }
 /* __MONITOR 4K__ */
@@ -687,32 +611,10 @@ body {
   }
 
   .contact__formsection__flexcontainer__text {
-    font-size: 16px;
-    font-family: "Ubuntu", sans-serif;
-    color: #353535;
-    line-height: 24px;
     margin: 100px 1238px 30px 100px;
-    letter-spacing: 0.5px;
-  }
-  .contact__formsection__flexcontainer__contactlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .contact__formsection__flexcontainer__contactlinks__link {
-    font-size: 16px;
-    color: #353535;
-    font-family: "Rubik", sans-serif;
     margin: 0px 1238px 10px 100px;
-    padding: 10px 12px 10px 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .contact__formsection__flexcontainer__contactlinks__link:first-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 }
 .top__header__flexcontainer__right__karel {
