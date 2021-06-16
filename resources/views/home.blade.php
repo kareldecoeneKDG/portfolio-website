@@ -372,7 +372,7 @@
                         </div>
 
                         <div>
-                            <a href="https://esportsplus.pieter.vanvalckenborgh.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://esportsplus.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                             <a href="https://github.com/kareldecoeneKDG/esportsPlus" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                         </div>
                     </div>
