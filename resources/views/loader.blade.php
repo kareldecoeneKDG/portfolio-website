@@ -22,7 +22,7 @@
 
 
 
-        
+
 
         <!-- Google Description -->
         <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
@@ -53,6 +53,17 @@
 
         <!-- Google reCAPTCHA
         <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9CKLTZQV5"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-Y9CKLTZQV5');
+        </script>
     </head>
 
 
