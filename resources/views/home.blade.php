@@ -120,7 +120,7 @@
 
                             <div class="top__header__flexcontainer__left__ctas2">
                                 <div class="top__header__flexcontainer__left__ctas2__downloadcv">
-                                    <a href="{{ URL::asset('../../public/pdf/KarelDecoene_CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
+                                    <a href="{{ URL::asset('../../public/pdf/Karel_CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
                                 </div>
 
                                 <div class="top__header__flexcontainer__left__ctas2__socials">
