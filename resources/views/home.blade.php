@@ -120,7 +120,7 @@
 
                             <div class="top__header__flexcontainer__left__ctas2">
                                 <div class="top__header__flexcontainer__left__ctas2__downloadcv">
-                                    <a href="{{ url('pdf/KarelDecoene_CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
+                                    <a href="{{ URL::asset('../../public/pdf/KarelDecoene_CV.pdf') }}" class="top__header__flexcontainer__left__ctas2__downloadcv__button" download>download my cv</a>
                                 </div>
 
                                 <div class="top__header__flexcontainer__left__ctas2__socials">
@@ -155,9 +155,8 @@
 
                 <div class="about__flexcontainer">
                     <p class="about__flexcontainer__p">
-                    Hi there, my name is Karel Decoene. I’m 20 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
-                    I’m currently in my 2nd year of college and I’m studying <strong>NxT Media Technology</strong> with a focus on #webdevelopment at the <strong>KdG Hogeschool</strong> in Hoboken.
-
+                        Hi there, my name is Karel Decoene. I’m 19 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
+                        I’ve just finished my 2nd year of college and I’m studying <strong>NxT Media Technology</strong> with a focus on #webdevelopment at the <strong>KdG Hogeschool</strong> in Hoboken.
                     </p>
 
                     <img src="{{ URL::asset('../../public/img/about.webp') }}" alt="img placeholder" class="about__flexcontainer__img">
@@ -445,8 +444,8 @@
                     -->
                     <div class="contact__formsection__flexcontainer">
                         <div class="contact__formsection__flexcontainer__text">
-                            I’m currently not registered as a company but I'm always looking for new challenges. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at the same time a cheap solution
-                            for your company.<br><br>
+                            I'm not yet registered as a company for the time being, but behind the scenes I'm working hard on this. More on this soon. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at 
+                            the same time a cheap solution for your company.<br><br>
 
                             Furthermore I’m still looking for a company where I can do an <strong>internship</strong> next year. Are you a fan of my work and do you see opportunities? Feel free to leave me a message.
                         </div>
