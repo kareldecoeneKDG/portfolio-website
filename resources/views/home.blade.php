@@ -39,7 +39,7 @@
 
         <!-- Faveicon -->
         <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
-        <link rel="icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ URL::asset('../../public/img/favicon.ico') }}" type="image/x-icon">
 
         <!-- Google reCAPTCHA -->
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
