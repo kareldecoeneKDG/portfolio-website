@@ -11,7 +11,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- Scripts -->
+        <!-- Scripts AFBLIJVEN? -->
         <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Google Description -->
@@ -20,7 +20,7 @@
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
         <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
-        <meta property="og:image" content="{{ url('img/facebook.png') }}">
+        <meta property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <title>KAREL - NxT Web Developer</title>
 
@@ -35,14 +35,14 @@
 
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('../../public/css/style.css') }}" rel="stylesheet">
 
         <!-- Faveicon -->
-        <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ URL::asset('../../public//img/favicon.ico') }}" type="image/x-icon">
         <link rel="icon" href="{{ URL::asset('../../public/img/favicon.ico') }}" type="image/x-icon">
 
-        <!-- Google reCAPTCHA -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- Google reCAPTCHA
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
     </head>
 
 
@@ -92,7 +92,7 @@
                     <div class="top__header__flexcontainer">
                         <div class="top__header__flexcontainer__right">
                             <div class="top__header__flexcontainer__right__karel">
-                                <img src="{{ url('img/karel_1.webp') }}" alt="img placeholder" class="top__header__flexcontainer__right__karel__img">
+                                <img src="{{ URL::asset('../../public/img/karel_1.webp') }}" alt="img placeholder" class="top__header__flexcontainer__right__karel__img">
                             </div>
                         </div>
 
@@ -149,7 +149,7 @@
 
                     </p>
 
-                    <img src="{{ url('img/about.webp') }}" alt="img placeholder" class="about__flexcontainer__img">
+                    <img src="{{ URL::asset('../../public/img/about.webp') }}" alt="img placeholder" class="about__flexcontainer__img">
                 </div>
             </div>
             <!-- END ABOUT -->
@@ -196,7 +196,7 @@
 
                         <div class="skills__items__item__right">
                             <div class="skills__items__item__right__container">
-                                <img src="{{ url('img/development.svg') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ URL::asset('../../public/img/development.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
 
                         <div class="skills__items__item__right__3">
                             <div class="skills__items__item__right__3__container">
-                                <img src="{{ url('img/design.svg') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ URL::asset('../../public/img/design.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@
 
                         <div class="skills__items__item__right__2">
                             <div class="skills__items__item__right__2__container">
-                                <img src="{{ url('img/branding.svg') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ URL::asset('../../public/img/branding.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -272,7 +272,7 @@
 
                         <div class="skills__items__item__right__2">
                             <div class="skills__items__item__right__2__container">
-                                <img src="{{ url('img/content.svg') }}" alt="icon image" class="skills__items__item__right__icon">
+                                <img src="{{ URL::asset('../../public/img/content.svg') }}" alt="icon image" class="skills__items__item__right__icon">
                             </div>
                         </div>
                     </div>
@@ -294,7 +294,7 @@
                     <div class="projects__items__item" id="project1">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{url('img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
                             <h5 class="projects__items__item__h5">content & social media</h5>
@@ -316,7 +316,7 @@
                     <div class="projects__items__item" id="project2">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{url('img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
                             <h5 class="projects__items__item__h5">website & content</h5>
@@ -338,7 +338,7 @@
                     <div class="projects__items__item" id="project3">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{url('img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
                             <h5 class="projects__items__item__h5">web design & development</h5>
@@ -360,7 +360,7 @@
                     <div class="projects__items__item" id="project4">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{url('img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/ES.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
                             <h5 class="projects__items__item__h5">web design & development</h5>
@@ -447,7 +447,7 @@
                     </div>
 
                     <div class="contact__formsection__karel">
-                        <img src="{{ url('img/karel_2.webp') }}" alt="img placeholder" class="contact__formsection__karel__img">
+                        <img src="{{ URL::asset('../../public/img/karel_2.webp') }}" alt="img placeholder" class="contact__formsection__karel__img">
                     </div>
                 </div>
             </div>
@@ -514,6 +514,6 @@
 
 
         <!-- JAVASCRIPT MOBILE NAV -->
-        <script src="{{ url('js/burger.js') }}"></script>
+        <script src="{{ URL::asset('../../public/js/burger.js') }}"></script>
     </body>
 </html>
