@@ -12,8 +12,17 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- Scripts -->
+
+
+
+
+        <!-- Scripts AFBLIJVEN? -> VOOR FORM??? -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+
+
+
+
+        
 
         <!-- Google Description -->
         <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
@@ -21,7 +30,7 @@
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
         <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
-        <meta property="og:image" content="{{ url('img/facebook.png') }}">
+        <meta property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <title>KAREL - NxT Web Developer</title>
 
@@ -36,14 +45,14 @@
 
 
         <!-- Styles -->
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('../../public/css/style.css') }}" rel="stylesheet">
 
         <!-- Faveicon -->
-        <link rel="shortcut icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
-        <link rel="icon" href="{{ url('img/favicon.ico') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ URL::asset('../../public//img/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ URL::asset('../../public/img/favicon.ico') }}" type="image/x-icon">
 
-        <!-- Google reCAPTCHA -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <!-- Google reCAPTCHA
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
     </head>
 
 
