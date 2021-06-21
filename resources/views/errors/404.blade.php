@@ -72,13 +72,13 @@
                     </div>
 
 
-                    <!-- LINKS -->
+                    <!-- LINKS TEST-->
                     <div class="top__nav__links nav-links">
                         <ul class="top__nav__links__list">
-                            <a href="#about" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">about</li></a>
-                            <a href="#skills" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">skills</li></a>
-                            <a href="#projects" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">projects</li></a>
-                            <a href="#contact" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">contact</li></a>
+                            <a href="/home/#about" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">about</li></a>
+                            <a href="/home/#skills" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">skills</li></a>
+                            <a href="/home/#projects" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">projects</li></a>
+                            <a href="/home/#contact" class="top__nav__links__list__a"><li class="top__nav__links__list__a__item">contact</li></a>
                         </ul>
                     </div>
 
@@ -117,7 +117,7 @@
             </div>
             <!-- END HEADER -->
         </div>
-        
+
 
         <!-- JAVASCRIPT MOBILE NAV -->
         <script src="{{ URL::asset('../../public/js/burger.js') }}"></script>
