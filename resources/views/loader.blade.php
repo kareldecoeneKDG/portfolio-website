@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <!-- Change to welcome page -->
-        <meta http-equiv="refresh" content="3; url = /home"/>
+        <meta http-equiv="refresh" content="3; URL=https://kareldecoene.be/home"/>
 
         <!-- General -->
         <meta charset="utf-8">
