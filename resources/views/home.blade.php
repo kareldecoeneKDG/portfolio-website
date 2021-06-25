@@ -15,11 +15,11 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Google Description -->
-        <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
+        <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learning Web Development and UX/UI. Welcome to my portfolio website.">
 
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
-        <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
+        <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learning Web Development and UX/UI. Welcome to my portfolio website.">
         <meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <!-- LinkedIn Preview Tag -->
