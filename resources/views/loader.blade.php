@@ -34,7 +34,7 @@
 
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
-        <meta content="https://kareldecoene.be/img/facebook.png" property="og:image">
+        <meta content="https://kareldecoene.be/img/facebook.png" property="og:image" name="image">
         <meta content="1200" property="og:image:width">
         <meta content="630" property="og:image:height">
 
