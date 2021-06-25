@@ -25,6 +25,13 @@
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
 
+        <!-- Twitter/Linkedin -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Karel Decoene - NxT Media Technology - Portfolio Website" />
+        <meta name="twitter:site" content="kareldecoenebe" />
+        <meta name="twitter:creator" content="kareldecoene">
+        <meta name="twitter:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
+
         <title>KAREL - NxT Web Developer</title>
 
 
