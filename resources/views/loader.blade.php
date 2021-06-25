@@ -30,10 +30,13 @@
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
         <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
-        <meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
+        <!--<meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">-->
 
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
+        <meta content="https://kareldecoene.be/img/facebook.png" property="og:image">
+        <meta content="1200" property="og:image:width">
+        <meta content="630" property="og:image:height">
 
         <title>KAREL - NxT Web Developer</title>
 
