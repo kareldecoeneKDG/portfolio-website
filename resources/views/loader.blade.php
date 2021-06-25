@@ -25,18 +25,25 @@
 
 
         <!-- Google Description -->
-        <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
+        <meta name="description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learning Web Development and UX/UI. Welcome to my portfolio website.">
 
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
-        <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learling Web Development and UX/UI. Welcome to my portfolio website.">
-        <!--<meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">-->
+        <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learning Web Development and UX/UI. Welcome to my portfolio website.">
+        <meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
-        <meta content="https://kareldecoene.be/img/facebook.png" property="og:image" name="image">
+        <!--<meta content="https://kareldecoene.be/img/facebook.png" property="og:image" name="image">-->
         <meta content="1200" property="og:image:width">
         <meta content="630" property="og:image:height">
+
+        <!-- Twitter/Linkedin -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Karel Decoene - NxT Media Technology - Portfolio Website" />
+        <meta name="twitter:site" content="kareldecoenebe" />
+        <meta name="twitter:creator" content="kareldecoene">
+        <meta name="twitter:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <title>KAREL - NxT Web Developer</title>
 
