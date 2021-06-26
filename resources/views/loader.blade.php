@@ -37,6 +37,7 @@
         <!--<meta content="https://kareldecoene.be/img/facebook.png" property="og:image" name="image">-->
         <meta content="1200" property="og:image:width">
         <meta content="630" property="og:image:height">
+        <meta property="og:type" content="website">
 
         <!-- Twitter/Linkedin -->
         <meta name="twitter:card" content="summary_large_image">

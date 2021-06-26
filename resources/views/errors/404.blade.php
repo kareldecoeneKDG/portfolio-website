@@ -22,6 +22,9 @@
 
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
+        <meta content="1200" property="og:image:width">
+        <meta content="630" property="og:image:height">
+        <meta property="og:type" content="website">
 
         <!-- Twitter/Linkedin -->
         <meta name="twitter:card" content="summary_large_image">
