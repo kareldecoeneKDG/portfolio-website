@@ -18,13 +18,14 @@
         <!-- Facebook Preview Tags -->
         <meta property="og:title" content="Karel Decoene - NxT Media Technology - Portfolio Website">
         <meta name="og:description" content="Hi, I'm Karel and I'm a student NxT Media Technology at KdG Hogeschool learning Web Development and UX/UI. Welcome to my portfolio website.">
-        <meta name="image" property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
+        <meta property="og:image" content="{{ URL::asset('../../public/img/facebook.png') }}">
 
         <!-- LinkedIn Preview Tag -->
         <meta name="author" content="Karel Decoene">
         <meta content="1200" property="og:image:width">
         <meta content="630" property="og:image:height">
         <meta property="og:type" content="website">
+        <meta name="image" property="og:image" content="{{ URL::asset('https://www.kareldecoene.be/public/img/versionLinkedIn.svg') }}">
 
         <!-- Twitter/Linkedin -->
         <meta name="twitter:card" content="summary_large_image">
