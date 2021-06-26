@@ -27,7 +27,6 @@
         <meta content="1200" property="og:image:width">
         <meta content="630" property="og:image:height">
         <meta property="og:type" content="website">
-        <meta name="image" property="og:image" content="{{ URL::asset('https://www.kareldecoene.be/public/img/versionLinkedIn.svg') }}">
 
         <!-- Twitter/Linkedin -->
         <meta name="twitter:card" content="summary_large_image">
