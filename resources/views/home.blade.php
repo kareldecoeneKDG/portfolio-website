@@ -168,7 +168,7 @@
 
                 <div class="about__flexcontainer">
                     <p class="about__flexcontainer__p">
-                        Hi there, my name is Karel Decoene. I’m 19 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
+                        Hi there, my name is Karel Decoene. I’m 20 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
                         I’ve just finished my 2nd year of college and I’m studying <strong>NxT Media Technology</strong> with a focus on #webdevelopment at the <strong>KdG Hogeschool</strong> in Hoboken.
                     </p>
 
