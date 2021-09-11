@@ -168,7 +168,7 @@
 
                 <div class="about__flexcontainer">
                     <p class="about__flexcontainer__p">
-                        Hi there, my name is Karel Decoene. I’m 20 y/o and living in Antwerp. Since I was 16 I’ve been very interested in creating online content, especially websites.<br><br>
+                        Hi there, my name is Karel Decoene. I’m 20 y/o and living in Antwerp. From the age of 16 I’ve been very interested in creating online content, especially websites.<br><br>
                         I’ve just finished my 2nd year of college and I’m studying <strong>NxT Media Technology</strong> with a focus on #webdevelopment at the <strong>KdG Hogeschool</strong> in Hoboken.
                     </p>
 
@@ -240,7 +240,7 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                Every well-performing website starts with an attractive and <strong>user-friendly atomic design</strong>. In my designs the focus lies on user experience <strong>#UX</strong> & a goodlooking interface <strong>#UI</strong>.<br><br>
+                                Every well-performing website starts with an attractive and <strong>user-friendly atomic design</strong>. In my designs the focus lies on user experience <strong>#UX</strong>& a goodlooking interface <strong>#UI</strong>.<br><br>
                                 This allows you to create #interaction with your #visitors and generate more <strong>(online) sales</strong> as a company.
                             </p>
                         </div>
@@ -265,7 +265,7 @@
                             </div>
 
                             <p class="skills__items__item__p__extra">
-                                A company needs a beautiful & recognizable #branding. Using the #Adobe applications I design <strong>logos, business cards & more</strong> for companies and organizations. Questions? Do not hesitate to contact me.
+                                A company needs beautiful & recognizable #branding. Using the #Adobe applications I design <strong>logos, business cards & more</strong> for companies and organizations. Questions? Do not hesitate to contact me.
                             </p>
                         </div>
 
@@ -289,7 +289,7 @@
 
                             <p class="skills__items__item__p__extra">
                                 In addition to #websites, I often make photos and #content for <strong>social media</strong>.<br><br>
-                                This can range from taking <strong>product photos</strong> to writing a #blogpost. Be sure to check out my social media!
+                                This might range from taking <strong>product photos</strong> to writing a #blogpost. Be sure to check out my social media!
                             </p>
                         </div>
 
@@ -346,7 +346,7 @@
 
                             <p class="projects__items__item__p">
                                 When I was 17 years old, I wanted to start making websites for companies. If only I knew back then that you have to know more than just basic #HTML & #CSS.<br><br>
-                                In any case, the <strong>mindset</strong> was there. I made a simple website that was absolutely garbage but I definitely learned a lot with it.
+                                In any case, the <strong>mindset</strong> was there. I made a simple website that wasn't quite right but I definitely learned a lot with it.
                             </p>
                         </div>
 
@@ -390,7 +390,7 @@
 
                             <p class="projects__items__item__p">
                                 In my second year of college we worked on a fictional company called <strong>Esport+</strong>. This was a streaming platform like #Twitch but better.<br><br>
-                                This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things. The website was build with the help of others and we've used a bootstrap template.
+                                This was a project in collaboration with #Telenet / #LibertyGlobal and we made a website for it, among other things. The website was build with the help of others and we used a bootstrap template.
                             </p>
                         </div>
 
@@ -457,8 +457,8 @@
                     -->
                     <div class="contact__formsection__flexcontainer">
                         <div class="contact__formsection__flexcontainer__text">
-                            I'm not yet registered as a company for the time being, but behind the scenes I'm working hard on this. More on this soon. Do not hesitate to contact me if you are looking for a logo, website & more. For me this is the best way to learn and at 
-                            the same time a decent solution for your company.<br><br>
+                            I'm not yet registered as a company for the time being, but behind the scenes I'm working hard on this. More on this soon. Do not hesitate to contact me if you are looking for a logo, website & more. This is for me the best way to learn. At 
+                            the same time it's a decent solution for your company.<br><br>
 
                             Furthermore I’m still looking for a company where I can do an <strong>internship</strong> next year. Are you a fan of my work and do you see opportunities? Feel free to leave me a message.
                         </div>
