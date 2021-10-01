@@ -314,7 +314,7 @@
 
                 <div class="projects__items">
                     <!-- PROJECT -->
-                    <div class="projects__items__item" id="project2">
+                    <div class="projects__items__item" id="project1">
                         <div>
                             <div class="projects__items__item__image">
                                 <img src="{{ URL::asset('../../public/img/PO2.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
@@ -336,7 +336,7 @@
 
 
                     <!-- PROJECT -->
-                    <div class="projects__items__item" id="project1">
+                    <div class="projects__items__item" id="project2">
                         <div>
                             <div class="projects__items__item__image">
                                 <img src="{{ URL::asset('../../public/img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
