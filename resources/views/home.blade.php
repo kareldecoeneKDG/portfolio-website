@@ -339,14 +339,14 @@
                     <div class="projects__items__item" id="project2">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{ URL::asset('../../public/img/PO.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/PO2.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
                             <h5 class="projects__items__item__h5">website & content</h5>
 
                             <p class="projects__items__item__p">
-                                When I was 17 years old, I wanted to start making websites for companies. If only I knew back then that you have to know more than just basic #HTML & #CSS.<br><br>
-                                In any case, the <strong>mindset</strong> was there. I made a simple website that wasn't quite right but I definitely learned a lot with it.
+                                In Aug. 2021 I've founded <strong>Present Online</strong>, a webdesign & -development company. Present Online makes responsive websites & unique online content for freelancers, SMEs & other organizations.<br><br>
+                                This gives me the #opportunity to apply my <strong>knowledge</strong> in practice next to my studies.
                             </p>
                         </div>
 
