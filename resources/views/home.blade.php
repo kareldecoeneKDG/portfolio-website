@@ -314,6 +314,28 @@
 
                 <div class="projects__items">
                     <!-- PROJECT -->
+                    <div class="projects__items__item" id="project2">
+                        <div>
+                            <div class="projects__items__item__image">
+                                <img src="{{ URL::asset('../../public/img/PO2.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                            </div>
+
+                            <h5 class="projects__items__item__h5">website & content</h5>
+
+                            <p class="projects__items__item__p">
+                                In Aug. 2021 I've founded <strong>Present Online</strong>, a webdesign & -development company. Present Online makes responsive websites & unique online content for freelancers, SMEs & other organizations.<br><br>
+                                This gives me the #opportunity to apply my <strong>knowledge</strong> in practice next to my studies.
+                            </p>
+                        </div>
+
+                        <div>
+                            <a href="https://www.instagram.com/presentonline.be/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                            <a href="https://www.presentonline.be" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                        </div>
+                    </div>
+
+
+                    <!-- PROJECT -->
                     <div class="projects__items__item" id="project1">
                         <div>
                             <div class="projects__items__item__image">
@@ -331,28 +353,6 @@
                         <div>
                             <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
                             <a href="https://wordpress1.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
-                        </div>
-                    </div>
-
-
-                    <!-- PROJECT -->
-                    <div class="projects__items__item" id="project2">
-                        <div>
-                            <div class="projects__items__item__image">
-                                <img src="{{ URL::asset('../../public/img/PO2.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
-                            </div>
-
-                            <h5 class="projects__items__item__h5">website & content</h5>
-
-                            <p class="projects__items__item__p">
-                                In Aug. 2021 I've founded <strong>Present Online</strong>, a webdesign & -development company. Present Online makes responsive websites & unique online content for freelancers, SMEs & other organizations.<br><br>
-                                This gives me the #opportunity to apply my <strong>knowledge</strong> in practice next to my studies.
-                            </p>
-                        </div>
-
-                        <div>
-                            <a href="https://www.instagram.com/presentonline_websites/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
-                            <a href="https://presentonline.karel.decoene.nxtmediatech.eu/index.php" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                         </div>
                     </div>
 
