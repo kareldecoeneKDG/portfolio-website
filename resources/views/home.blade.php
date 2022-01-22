@@ -329,8 +329,8 @@
                         </div>
 
                         <div>
-                            <a href="https://github.com/kareldecoeneKDG/fablab-website" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
-                            <a href="https://fablab.karel.decoene.nxtmediatech.eu" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://www.instagram.com/presentonline.be/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
+                            <a href="https://www.presentonline.be" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                         </div>
                     </div>
 
@@ -351,8 +351,8 @@
                         </div>
 
                         <div>
-                            <a href="https://www.instagram.com/supercarsfromeverywhere/" class="projects__items__item__button__extra"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
-                            <a href="https://wordpress1.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://fablab.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
+                            <a href="https://github.com/kareldecoeneKDG/fablab-website" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
                         </div>
                     </div>
 
@@ -373,8 +373,8 @@
                         </div>
 
                         <div>
+                            <a href="https://biolab.karel.decoene.nxtmediatech.eu/" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                             <a href="https://github.com/kareldecoeneKDG/biolab-website" class="projects__items__item__button"><i class="fa fa-github" aria-hidden="true"></i> github</a>
-                            <a href="https://biolab.karel.decoene.nxtmediatech.eu" class="projects__items__item__button"><i class="fa fa-globe" aria-hidden="true"></i> website</a>
                         </div>
                     </div>
 
