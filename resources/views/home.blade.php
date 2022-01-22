@@ -339,14 +339,14 @@
                     <div class="projects__items__item" id="project2">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{ URL::asset('../../public/img/SFE.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/fablab.png')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
-                            <h5 class="projects__items__item__h5">content & social media</h5>
+                            <h5 class="projects__items__item__h5">web development</h5>
 
                             <p class="projects__items__item__p">
-                                Supercars From Everywhere is an account on #Instagram where I share photos of mainly exotic cars.<br><br>
-                                For me it was mainly about building a <strong>following</strong> and sharing my <strong>passion</strong> with others. The website is build using Wordpress (first time for me) and was just an experiment.
+                                <strong>FabLab</strong>KdG is the Fabrication Laboratory of KdG Hogeschool Hoboken. This is a place where you can play with <strong>3D printers, CNC machines</strong> etc.<br><br>
+                                On page 'Reserveren', You'll be redirected to a <strong>reservationtool</strong> for the FabLab machines made in #Laravel. This website is made using <strong>Kirby CMS</strong> and I've defenitely learned a lot with it.
                             </p>
                         </div>
 
@@ -361,14 +361,14 @@
                     <div class="projects__items__item" id="project3">
                         <div>
                             <div class="projects__items__item__image">
-                                <img src="{{ URL::asset('../../public/img/TB.webp')}}" alt="img placeholder" class="projects__items__item__image__img">
+                                <img src="{{ URL::asset('../../public/img/logo-biolab.png')}}" alt="img placeholder" class="projects__items__item__image__img">
                             </div>
 
-                            <h5 class="projects__items__item__h5">web design & development</h5>
+                            <h5 class="projects__items__item__h5">web development</h5>
 
                             <p class="projects__items__item__p">
-                                In Feb. 2021 I had the chance to create my first website for a company. This gave me the opportunity to put my fresh knowledge (#Laravel, #Sass, #BEM, …) to the test.<br><br>
-                                It took me a few weeks from design to website, but in the end I'm relatively happy with the result. There's still a lot of room for <strong>improvement</strong> though!
+                                <strong>Biolab</strong>KdG is the Biological Laboratory of KdG Hogeschool Hoboken.<br><br>
+                                This is a place where you can play with <strong>creating eclogical solutions for environmental problems.</strong> etc. This website is made using <strong>Kirby CMS</strong> and I've defenitely learned a lot with it.
                             </p>
                         </div>
 
